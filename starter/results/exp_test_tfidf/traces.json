@@ -1,0 +1,373 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Trường ĐHBK Hà Nội khởi công xây dựng khu trường mới trên khuôn viên Đông Dương học xá vào thời gian nào?",
+    "strategy": "Baseline Test: TF-IDF",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 2,
+        "evidence": "Ngày 7/11/1960 với sự giúp đỡ hết lòng của Chính phủ và nhân dân Liên Xô, nhân dịp kỷ niệm Cách mạng tháng Mười Nga vĩ đại, trường ĐHBK Hà Nội khởi công xây dựng khu trường mới trên khuôn viên của Đông Dương học xá."
+      }
+    ],
+    "results": [
+      {
+        "id": "so-tay-sv-hust-2026_p2_par_0",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 2,
+        "text": "2 3 NHỮNG ĐIỂM MỐC LỊCH SỬ QUAN TRỌNG 1956 Ngày 6/3/1956, Bộ trưởng Bộ Giáo dục Nguyễn Văn Huyên đã ký nghị định 147/NĐ về việc thành lập trường Đại học Chuyên nghiệp Bách khoa nay là trường ĐHBK Hà Nội. Ngày 15/10/1956,Trường đã long trọng tổ chức “Lễ khai giảng khóa I” cho 848 sinh viên vào 14 ngành của 04 liên khoa Cơ-Điện, Mỏ-Luyện kim, Xây dựng, Hóa-Thực phẩm. 1960 Ngày 7/11/1960 với sự giúp đỡ hết lòng của Chính phủ và nhân dân Liên Xô, nhân dịp kỷ niệm Cách mạng tháng Mười Nga vĩ đại, trường ĐHBK Hà Nội khởi công xây dựng khu trường mới trên khuôn viên của Đông Dương học xá. Cuối năm 19",
+        "metadata": {
+          "section": "lich_su",
+          "char_count": 3503,
+          "raw_page_number": 2,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.36478034413968413,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "so-tay-sv-hust-2026_p2_par_1",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 2,
+        "text": "trên khuôn viên của Đông Dương học xá. Cuối năm 1965 khánh thành khu trường mới. 1967 Chính phủ quyết định tách 2 khoa Xây dựng và Mỏ - Địa chất từ Trường Đại học Bách khoa Hà Nội để thành lập trường Đại học Xây dựng và trường Đại học Mỏ - Địa chất. 1975 Năm 1975-1976, năm học đầu tiên được khai giảng trong niềm vui trọn vẹn của đất nước thống nhất. Theo yêu cầu của Đảng và Chính phủ, trường ĐHBK Hà Nội san sẻ một bộ phận cán bộ quản lý và cán bộ giảng dạy có năng lực chuyên môn, nghiệp vụ, có bản lĩnh chính trị để tham gia tiếp nhận, cải tạo xây dựng các trường đại học phía Nam sau giải phóng",
+        "metadata": {
+          "section": "lich_su",
+          "char_count": 3503,
+          "raw_page_number": 2,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.3647280185254721,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "so-tay-sv-hust-2026_p13_par_4",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 13,
+        "text": "BKHUB – COWORKING SPACE Trung tâm Sáng tạo và Khởi nghiệp Sinh viên – Đại học Bách khoa Hà Nội được xây dựng và phát triển là đơn vị hỗ trợ toàn diện cho sinh viên trong các hoạt động về đổi mới sáng tạo và khởi nghiệp; từ đào tạo kiến thức khởi nghiệp căn bản, phát triển ý tưởng đến hỗ trợ kết nối thương mại hóa ý tưởng, kêu gọi vốn đầu tư, để hình thành các startup của sinh viên qua đó góp phần hỗ trợ khả năng thành công của người học, đồng thời nâng cao uy tín, vị thế của Đại học Bách khoa Hà Nội. Địa điểm: Tầng 2 tòa HUST DIGITAL HUB, Đại học Bách khoa Hà Nội https:/ /bke.hust.edu.vn/",
+        "metadata": {
+          "section": "chung",
+          "char_count": 2490,
+          "raw_page_number": 13,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.1972819520327043,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[so-tay-sv-hust-2026_p2_par_0 | data/So tay sinh vien_2026.pdf | page 2]\n2 3 NHỮNG ĐIỂM MỐC LỊCH SỬ QUAN TRỌNG 1956 Ngày 6/3/1956, Bộ trưởng Bộ Giáo dục Nguyễn Văn Huyên đã ký nghị định 147/NĐ về việc thành lập trường Đại học Chuyên nghiệp Bách khoa nay là trường ĐHBK Hà Nội. Ngày 15/10/1956,Trường đã long trọng tổ chức “Lễ khai giảng khóa I” cho 848 sinh viên vào 14 ngành của 04 liên khoa Cơ-Điện, Mỏ-Luyện kim, Xây dựng, Hóa-Thực phẩm. 1960 Ngày 7/11/1960 với sự giúp đỡ hết lòng của Chính phủ và nhân dân Liên Xô, nhân dịp kỷ niệm Cách mạng tháng Mười Nga vĩ đại, trường ĐHBK Hà Nội khởi công xây dựng khu trường mới trên khuôn viên của Đông Dương học xá. Cuối năm 19",
+    "context_ids": [
+      "so-tay-sv-hust-2026_p2_par_0"
+    ],
+    "context_chars": 673,
+    "elapsed_ms": 1.4714000280946493,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Thời gian đào tạo chương trình Cử nhân và Thạc sĩ khoa học theo mô hình tích hợp là bao nhiêu năm?",
+    "strategy": "Baseline Test: TF-IDF",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 7,
+        "evidence": "c chương trình tích hợp cử nhân - thạc sĩ sẽ học chương trình 4 năm và được nhận được bằng tốt nghiệp cử nhân; sau đó nếu học tiếp 1,5 năm theo chương trình thạc sĩ tích hợp sẽ được cấp bằng tốt nghiệp"
+      }
+    ],
+    "results": [
+      {
+        "id": "so-tay-sv-hust-2026_p7_par_1",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 7,
+        "text": "1.5 năm Xét tuyển Đào tạo tiến sĩ MÔ HÌNH VÀ CHƯƠNG TRÌNH ĐÀO TẠO TÍCH HỢP HỆ CHÍNH QUY Các chương trình đào tạo đều được được xây dựng phù hợp với các quy định của luật Giáo dục đại học hiện hành về chương trình đào tạo và văn bằng tốt nghiệp. Đảm bảo tính thực tiễn và tính hiện đại theo các chuẩn mực quốc tế và đảm bảo tính tích hợp, thống nhất, liên tục của chương trình giữa các bậc đào tạo Cử nhân và Kỹ sư & Thạc sĩ. CHƯƠNG TRÌNH TÍCH HỢP CỬ NHÂN - KỸ SƯ CHƯƠNG TRÌNH TÍCH HỢP CỬ NHÂN - THẠC SĨ KHOA HỌC Các chương trình đào tạo kỹ sư sẽ được xây dựng theo hướng chuyên sâu nghề nghiệp với ch",
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2348,
+          "raw_page_number": 7,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.5469573238696467,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "so-tay-sv-hust-2026_p7_par_3",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 7,
+        "text": "c chương trình tích hợp cử nhân - thạc sĩ sẽ học chương trình 4 năm và được nhận được bằng tốt nghiệp cử nhân; sau đó nếu học tiếp 1,5 năm theo chương trình thạc sĩ tích hợp sẽ được cấp bằng tốt nghiệp thạc sĩ. Cấp bằng cử nhân và bằng kỹ sư cho người tốt nghiệp. Cấp bằng cử nhân và bằng thạc sĩ cho người tốt nghiệp. Chương trình tích hợp cử nhân – kỹ sư được phát triển với mục đích nâng cao chất lượng của các chương trình đào tạo kỹ sư truyền thống của ĐHBK Hà Nội. Mục tiêu của chương trình là đào tạo nguồn nhân lực có trình độ cao, năng lực nghiên cứu, đổi mới sáng tạo trong khoa học công ng",
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2348,
+          "raw_page_number": 7,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.514448477967246,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "so-tay-sv-hust-2026_p7_par_0",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 7,
+        "text": "12 13 MÔ HÌNH VÀ CHƯƠNG TRÌNH ĐÀO TẠO TÍCH HỢP HỆ CHÍNH QUY Các chương trình đào tạo được tổ chức theo mô hình 4+1,5 (tổng thời gian đào tạo là 5,5 năm đối với người học cùng ngành và theo tiến độ chuẩn). Mô đun chuyển đổi Thi THPT và xét tuyển ĐH CỬ NHÂN Cấp bằngCử nhân 4 năm KỸ SƯ (180 tín chỉ - bậc 7) + Định hướng chuyên sâu nghề nghiệp Cấp bằng Kỹ sư THẠC SĨ KHOA HỌC (180 tín chỉ - bậc 7) + Định hướng nghiên cứu hàn lâm + Định hướng nghiên cứu phát triển Cấp bằng Thạc sĩ 1,5 năm Xét tuyển",
+        "metadata": {
+          "section": "dao_tao",
+          "char_count": 2348,
+          "raw_page_number": 7,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.4679713096018198,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[so-tay-sv-hust-2026_p7_par_1 | data/So tay sinh vien_2026.pdf | page 7]\n1.5 năm Xét tuyển Đào tạo tiến sĩ MÔ HÌNH VÀ CHƯƠNG TRÌNH ĐÀO TẠO TÍCH HỢP HỆ CHÍNH QUY Các chương trình đào tạo đều được được xây dựng phù hợp với các quy định của luật Giáo dục đại học hiện hành về chương trình đào tạo và văn bằng tốt nghiệp. Đảm bảo tính thực tiễn và tính hiện đại theo các chuẩn mực quốc tế và đảm bảo tính tích hợp, thống nhất, liên tục của chương trình giữa các bậc đào tạo Cử nhân và Kỹ sư & Thạc sĩ. CHƯƠNG TRÌNH TÍCH HỢP CỬ NHÂN - KỸ SƯ CHƯƠNG TRÌNH TÍCH HỢP CỬ NHÂN - THẠC SĨ KHOA HỌC Các chương trình đào tạo kỹ sư sẽ được xây dựng theo hướng chuyên sâu nghề nghiệp với ch",
+    "context_ids": [
+      "so-tay-sv-hust-2026_p7_par_1"
+    ],
+    "context_chars": 673,
+    "elapsed_ms": 1.166999980341643,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Hành vi khai báo thông tin liên lạc và nơi cư trú theo yêu cầu của Đại học được cộng mấy điểm rèn luyện?",
+    "strategy": "Baseline Test: TF-IDF",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 11,
+        "evidence": "1.1.3 Khai báo thông tin liên lạc và nơi cư trú theo yêu cầu của Đại học MC 4"
+      }
+    ],
+    "results": [
+      {
+        "id": "so-tay-sv-hust-2026_p10_par_6",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 10,
+        "text": "ông tin do nhà trường thực hiện + 3 điểm nếu bạn tham gia phong trào “cốc trà đá vì cộng đồng”, “tuổi trẻ Bách khoa Nhân ái” + 3 điểm nếu bạn tham gia các hoạt động phổ biến, tìm hiểu bản sắc văn hóa dân tộc, văn hóa địa phương, văn hóa trường học,… Với mục Chấp hành pháp luật và nội quy, quy chế của nhà trường, bạn dễ dàng đạt được 22 điểm với: + 6 điểm, nếu bạn hiểu biết và chấp hành pháp luật của Nhà nước, quy định của nhà trường và nơi cư trú + 4 điểm, nếu bạn khai báo thông tin liên lạc và nơi cư trú theo yêu cầu của Đại học + 6 điểm, nếu bạn tham gia Họp lớp thường kỳ do Trường/Khoa tổ c",
+        "metadata": {
+          "section": "ren_luyen",
+          "char_count": 4567,
+          "raw_page_number": 10,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.3905028100743838,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "so-tay-sv-hust-2026_p11_par_0",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 11,
+        "text": "20 21\nSTT Tiêu chí đánh giá rèn luyện Minh Điểm I Tiêu chí điểm cộng (Tối đa 100 điểm)\nTC1 Chấp hành pháp luật và nội quy, quy chế của nhà trường (tối đa 25 điểm) 25 1 Chấp hành các quy định của pháp luật đối với công dân (tối đa 15 điểm):\n1.1.1 Hiểu biết và chấp hành pháp luật của Nhà nước, quy định của nhà trường và nơi cư trú MC 6\n1.1.2 Tham gia Sinh hoạt công dân do nhà trường tổ chức MC 6\n1.1.3 Khai báo thông tin liên lạc và nơi cư trú theo yêu cầu của Đại học MC 4 2 Chấp hành nội quy, quy chế và các quy định của nhà trường (tối đa 15 điểm):",
+        "metadata": {
+          "section": "ren_luyen",
+          "char_count": 7545,
+          "raw_page_number": 11,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.36331863480686916,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "so-tay-sv-hust-2026_p10_par_2",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 10,
+        "text": "4. Sinh viên không thực hiện tự đánh giá kết quả rèn luyện, không cung cấp minh chứng và không có lý do chính đáng sau khi đã được thông báo, nhắc nhở thì được xem xét xếp loại rèn luyện ở mức yếu trong học kỳ tương ứng. Kết quả rèn luyện được phân loại như sau:\n- Từ 90 điểm đến 100 điểm: loại xuất sắc;\n- Từ 80 điểm đến 89 điểm: loại tốt;\n- Từ 70 điểm đến 79 điểm: loại khá;\n1. Công bố hoạt động: Các đơn vị công khai kế hoạch hoạt động trên Cổng thông tin sinh viên hoặc các kênh thông tin chính thống để sinh viên đăng ký tham gia.",
+        "metadata": {
+          "section": "ren_luyen",
+          "char_count": 4567,
+          "raw_page_number": 10,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.23531425868709513,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[so-tay-sv-hust-2026_p10_par_6 | data/So tay sinh vien_2026.pdf | page 10]\nông tin do nhà trường thực hiện + 3 điểm nếu bạn tham gia phong trào “cốc trà đá vì cộng đồng”, “tuổi trẻ Bách khoa Nhân ái” + 3 điểm nếu bạn tham gia các hoạt động phổ biến, tìm hiểu bản sắc văn hóa dân tộc, văn hóa địa phương, văn hóa trường học,… Với mục Chấp hành pháp luật và nội quy, quy chế của nhà trường, bạn dễ dàng đạt được 22 điểm với: + 6 điểm, nếu bạn hiểu biết và chấp hành pháp luật của Nhà nước, quy định của nhà trường và nơi cư trú + 4 điểm, nếu bạn khai báo thông tin liên lạc và nơi cư trú theo yêu cầu của Đại học + 6 điểm, nếu bạn tham gia Họp lớp thường kỳ do Trường/Khoa tổ c",
+    "context_ids": [
+      "so-tay-sv-hust-2026_p10_par_6"
+    ],
+    "context_chars": 675,
+    "elapsed_ms": 1.0700999991968274,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Học bổng Gắn kết quê hương của ĐHBK Hà Nội xét cấp cho đối tượng sinh viên nào?",
+    "strategy": "Baseline Test: TF-IDF",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 18,
+        "evidence": "Học bổng gắn kết quê hương là Học bổng của ĐHBK Hà Nội xét cấp cho sinh viên hệ đại học"
+      }
+    ],
+    "results": [
+      {
+        "id": "so-tay-sv-hust-2026_p18_par_0",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 18,
+        "text": "34 35 HỌC BỔNG GẮN KẾT QUÊ HƯƠNG ĐỐI TƯỢNG HỌC BỔNG MỤC ĐÍCH CỦA HỌC BỔNG MỨC HỌC BỔNG Học bổng gắn kết quê hương là Học bổng của ĐHBK Hà Nội xét cấp cho sinh viên hệ đại học chính quy văn bằng thứ nhất hoặc học viên chương trình kỹ sư chuyên sâu đặc thù đang học tập tại Đại học Bách khoa Hà Nội. Học bổng gắn kết quê hương có trị giá 5 triệu đồng/Đồ án tốt nghiệp.",
+        "metadata": {
+          "section": "hoc_bong_chinh_sach",
+          "char_count": 2753,
+          "raw_page_number": 18,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.6917329270572543,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "so-tay-sv-hust-2026_p17_par_0",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 17,
+        "text": "32 33 HỌC BỔNG TRẦN ĐẠI NGHĨA ĐỐI TƯỢNG XÉT CẤP HỌC BỔNG MỤC ĐÍCH CỦA HỌC BỔNG MỨC HỌC BỔNG Học bổng Trần Đại Nghĩa là Học bổng của ĐHBK Hà Nội xét cấp cho sinh viên có hoàn cảnh kinh tế gia đình đặc biệt khó khăn (hộ nghèo, hộ cận nghèo hoặc hộ có hoàn cảnh kinh tế đặc biệt khó khăn khác), có kết quả học tập và rèn luyện tốt. Học bổng Trần Đại Nghĩa có 2 mức tương ứng với 50% và 100% học phí sinh viên phải đóng trong học kỳ xét, cấp học bổng.",
+        "metadata": {
+          "section": "hoc_bong_chinh_sach",
+          "char_count": 3075,
+          "raw_page_number": 17,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.34117193416239255,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "so-tay-sv-hust-2026_p17_par_2",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 17,
+        "text": "học sinh xuất sắc vào học tại ĐHBKHN. Không xét, cấp học bổng Trần Đại Nghĩa cho những sinh viên không đăng ký học tập tại thời điểm xét, cấp học bổng. Không xét, cấp học bổng Trần Đại Nghĩa cho những sinh viên đang trong thời gian bị kỷ luật từ mức cảnh cáo trở lên. Không xét, cấp học bổng Trần Đại Nghĩa cho những sinh viên đã được nhận học bổng KKHT hoặc học bổng tài trợ trong học kỳ xét, cấp học bổng Trần Đại Nghĩa. Không xét, cấp học bổng Trần Đại Nghĩa cho sinh viên diện chế độ chính sách được miễn, giảm học phí theo quy định của Nhà nước. HỌC BỔNG",
+        "metadata": {
+          "section": "hoc_bong_chinh_sach",
+          "char_count": 3075,
+          "raw_page_number": 17,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.3379557103665112,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[so-tay-sv-hust-2026_p18_par_0 | data/So tay sinh vien_2026.pdf | page 18]\n34 35 HỌC BỔNG GẮN KẾT QUÊ HƯƠNG ĐỐI TƯỢNG HỌC BỔNG MỤC ĐÍCH CỦA HỌC BỔNG MỨC HỌC BỔNG Học bổng gắn kết quê hương là Học bổng của ĐHBK Hà Nội xét cấp cho sinh viên hệ đại học chính quy văn bằng thứ nhất hoặc học viên chương trình kỹ sư chuyên sâu đặc thù đang học tập tại Đại học Bách khoa Hà Nội. Học bổng gắn kết quê hương có trị giá 5 triệu đồng/Đồ án tốt nghiệp.",
+    "context_ids": [
+      "so-tay-sv-hust-2026_p18_par_0"
+    ],
+    "context_chars": 441,
+    "elapsed_ms": 1.0386000503785908,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Hai trang thông tin điện tử chính thức dành cho sinh viên ĐHBK Hà Nội là những địa chỉ nào?",
+    "strategy": "Baseline Test: TF-IDF",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 23,
+        "evidence": "HUST.EDU.VN CTT.HUST.EDU.VN Đây là trang thông tin chính thức của Đại học"
+      }
+    ],
+    "results": [
+      {
+        "id": "so-tay-sv-hust-2026_p23_par_1",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 23,
+        "text": "HUST.EDU.VN CTT.HUST.EDU.VN Đây là trang thông tin chính thức của Đại học Bách Khoa Hà Nội. Tại đây có tất cả các thông tin liên quan đến hoạt động của Trường, từ đào tạo, nghiên cứu khoa học, hoạt động sinh viên cho đến hợp tác quốc tế... Đây là cổng thông tin dành cho sinh viên, cung cấp thông tin về kế hoạch học tập, thời khóa biểu, lịch thi, kế hoạch nộp học phí, học bổng, việc làm, các hoạt động phong trào, các quy định, quy chế, kết quả xử lý học tập,... Ngoài phần thông tin chung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đ",
+        "metadata": {
+          "section": "ho_tro_sinh_vien",
+          "char_count": 2153,
+          "raw_page_number": 23,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.29739572462892533,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "so-tay-sv-hust-2026_p6_par_5",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 6,
+        "text": "QUY CHẾ, THỦ TỤC, THÔNG\nTIN DÀNH CHO SINH VIÊN",
+        "metadata": {
+          "section": "quy_che",
+          "char_count": 2624,
+          "raw_page_number": 6,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.2930358504207959,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "so-tay-sv-hust-2026_p31_par_2",
+        "source_id": "so-tay-sv-hust-2026",
+        "source": "data/So tay sinh vien_2026.pdf",
+        "page": 31,
+        "text": "tại đây Trường Điện – Điện tử là đơn vị cấp 2 thuộc ĐHBKHN và là đơn vị đào tạo và nghiên cứu nòng cốt trong lĩnh vực Điện – Điện tử, có tính tự chủ cao thuộc ĐHBKHN, có chức năng chính là đào tạo cấp bằng, NCKH và chuyển giao tri thức trong lĩnh vực chuyên môn Kỹ thuật Điện, Kỹ thuật Điều khiển và Tự động hóa, Kỹ thuật Điện tử - Viễn thông, Kỹ thuật Y sinh, Kỹ thuật Đa phương tiện. Trường Điện - Điện tử được tổ chức xếp hạng QS World University Ranking xếp hạng TOP 350 trong lĩnh vực Điện - Điện tử Thế giới, TOP 1 Việt Nam. 61 TRƯỜNG CNTT &",
+        "metadata": {
+          "section": "to_chuc_doan_hoi",
+          "char_count": 2507,
+          "raw_page_number": 31,
+          "chunk_strategy": "by_paragraph"
+        },
+        "score": 0.25824266263835144,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[so-tay-sv-hust-2026_p23_par_1 | data/So tay sinh vien_2026.pdf | page 23]\nHUST.EDU.VN CTT.HUST.EDU.VN Đây là trang thông tin chính thức của Đại học Bách Khoa Hà Nội. Tại đây có tất cả các thông tin liên quan đến hoạt động của Trường, từ đào tạo, nghiên cứu khoa học, hoạt động sinh viên cho đến hợp tác quốc tế... Đây là cổng thông tin dành cho sinh viên, cung cấp thông tin về kế hoạch học tập, thời khóa biểu, lịch thi, kế hoạch nộp học phí, học bổng, việc làm, các hoạt động phong trào, các quy định, quy chế, kết quả xử lý học tập,... Ngoài phần thông tin chung dành cho sinh viên, mỗi sinh viên sẽ được cung cấp tài khoản email truy cập vào hệ thống cổng thông tin để đ\n\n[so-tay-sv-hust-2026_p6_par_5 | data/So tay sinh vien_2026.pdf | page 6]\nQUY CHẾ, THỦ TỤC, THÔNG\nTIN DÀNH CHO SINH VIÊN",
+    "context_ids": [
+      "so-tay-sv-hust-2026_p23_par_1",
+      "so-tay-sv-hust-2026_p6_par_5"
+    ],
+    "context_chars": 796,
+    "elapsed_ms": 1.5861999709159136,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

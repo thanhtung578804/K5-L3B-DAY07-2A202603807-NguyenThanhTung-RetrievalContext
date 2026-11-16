@@ -1,0 +1,44 @@
+{
+  "split": "test",
+  "total_cases": 30,
+  "passed": 29,
+  "failed": 1,
+  "accuracy_pct": 96.67,
+  "meets_90pct_threshold": true,
+  "by_category": {
+    "table": {
+      "passed": 6,
+      "total": 6,
+      "accuracy_pct": 100.0
+    },
+    "image_diagram": {
+      "passed": 5,
+      "total": 5,
+      "accuracy_pct": 100.0
+    },
+    "chart": {
+      "passed": 5,
+      "total": 5,
+      "accuracy_pct": 100.0
+    },
+    "multi_hop": {
+      "passed": 4,
+      "total": 4,
+      "accuracy_pct": 100.0
+    },
+    "text": {
+      "passed": 4,
+      "total": 4,
+      "accuracy_pct": 100.0
+    },
+    "unanswerable": {
+      "passed": 5,
+      "total": 6,
+      "accuracy_pct": 83.33
+    }
+  },
+  "avg_latency_ms": 2942.3,
+  "total_prompt_tokens": 99628,
+  "total_completion_tokens": 2737,
+  "total_cost_usd": 0.016587
+}

@@ -1,0 +1,444 @@
+[
+  {
+    "query_id": "adv_test2_tbl_1",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p011_vis_0"
+    ],
+    "source_page": 11,
+    "evidence_location": "data/advanced/page_images/page_011.png | Bảng: Các chỉ tiêu tài chính quan trọng -> Dòng: Hệ số nợ/Vốn chủ sở hữu -> Cột 2022 và 2025",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 11 (['vnm2025_p011_vis_0']).",
+    "elapsed_ms": 3411.3,
+    "est_cost_usd": 0.000543
+  },
+  {
+    "query_id": "adv_test2_tbl_2",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p011_vis_0"
+    ],
+    "source_page": 11,
+    "evidence_location": "data/advanced/page_images/page_011.png | Bảng: Các chỉ tiêu tài chính quan trọng -> Dòng: Vòng quay hàng tồn kho -> Cột 2023 và 2025",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 11 (['vnm2025_p011_vis_0']).",
+    "elapsed_ms": 2548.9,
+    "est_cost_usd": 0.000505
+  },
+  {
+    "query_id": "adv_test2_tbl_3",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p012_txt_3"
+    ],
+    "source_page": 12,
+    "evidence_location": "data/advanced/page_images/page_012.png | Bảng danh sách 20 cổ đông -> Dòng 3: Platinum Victory Pte., Ltd",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 12 (['vnm2025_p012_txt_3']).",
+    "elapsed_ms": 2936.1,
+    "est_cost_usd": 0.000515
+  },
+  {
+    "query_id": "adv_test2_tbl_4",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p072_vis_0"
+    ],
+    "source_page": 72,
+    "evidence_location": "data/advanced/page_images/page_072.png | Bảng 1: Theo BCTC riêng -> Dòng: Tổng nợ vay ngắn hạn và dài hạn -> Cột 31/12/2025",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 72 (['vnm2025_p072_vis_0']).",
+    "elapsed_ms": 2249.4,
+    "est_cost_usd": 0.000438
+  },
+  {
+    "query_id": "adv_test2_tbl_5",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p108_vis_0"
+    ],
+    "source_page": 108,
+    "evidence_location": "data/advanced/page_images/page_108.png | Bảng 1: Tài sản -> Dòng: Tiền và các khoản tương đương tiền -> Cột 31/12/2025",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 108 (['vnm2025_p108_vis_0']).",
+    "elapsed_ms": 2232.4,
+    "est_cost_usd": 0.000534
+  },
+  {
+    "query_id": "adv_test2_tbl_6",
+    "category": "table",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p109_vis_0"
+    ],
+    "source_page": 109,
+    "evidence_location": "data/advanced/page_images/page_109.png | Bảng KQKD -> Dòng: Giá vốn hàng bán và dịch vụ cung cấp -> Cột 2025",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 109 (['vnm2025_p109_vis_0']).",
+    "elapsed_ms": 2329.5,
+    "est_cost_usd": 0.000454
+  },
+  {
+    "query_id": "adv_test2_img_1",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p007_txt_0"
+    ],
+    "source_page": 7,
+    "evidence_location": "data/advanced/page_images/page_007.png | Sơ đồ timeline Lịch sử hình thành -> Mốc 2003",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 7 (['vnm2025_p007_txt_0']).",
+    "elapsed_ms": 2161.3,
+    "est_cost_usd": 0.000473
+  },
+  {
+    "query_id": "adv_test2_img_2",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p015_vis_0"
+    ],
+    "source_page": 15,
+    "evidence_location": "data/advanced/page_images/page_015.png | Hồ sơ Ông Nguyễn Hạnh Phúc",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 15 (['vnm2025_p015_vis_0']).",
+    "elapsed_ms": 2765.2,
+    "est_cost_usd": 0.000413
+  },
+  {
+    "query_id": "adv_test2_img_3",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p040_vis_0"
+    ],
+    "source_page": 40,
+    "evidence_location": "data/advanced/page_images/page_040.png | Khối thông tin số liệu góc trên bên trái",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 40 (['vnm2025_p040_vis_0']).",
+    "elapsed_ms": 2431.0,
+    "est_cost_usd": 0.000444
+  },
+  {
+    "query_id": "adv_test2_img_4",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p039_vis_0"
+    ],
+    "source_page": 39,
+    "evidence_location": "data/advanced/page_images/page_039.png | Ảnh Giấy chứng nhận bên trái (BVC-VN VT25008)",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 39 (['vnm2025_p039_vis_0']).",
+    "elapsed_ms": 2627.3,
+    "est_cost_usd": 0.00047
+  },
+  {
+    "query_id": "adv_test2_img_5",
+    "category": "image_diagram",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p014_txt_0"
+    ],
+    "source_page": 14,
+    "evidence_location": "data/advanced/page_images/page_014.png | Sơ đồ Cấu trúc tập đoàn Vinamilk",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 14 (['vnm2025_p014_txt_0']).",
+    "elapsed_ms": 2690.7,
+    "est_cost_usd": 0.000391
+  },
+  {
+    "query_id": "adv_test2_cht_1",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p010_vis_0"
+    ],
+    "source_page": 10,
+    "evidence_location": "data/advanced/page_images/page_010.png | Biểu đồ 3: Lợi nhuận từ HĐKD (tỷ đồng) -> Năm 2025",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 10 (['vnm2025_p010_vis_0']).",
+    "elapsed_ms": 2239.5,
+    "est_cost_usd": 0.000464
+  },
+  {
+    "query_id": "adv_test2_cht_2",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p010_vis_0"
+    ],
+    "source_page": 10,
+    "evidence_location": "data/advanced/page_images/page_010.png | Biểu đồ 4: Lợi nhuận trước thuế (tỷ đồng) -> Năm 2021 và 2025",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 10 (['vnm2025_p010_vis_0']).",
+    "elapsed_ms": 3038.5,
+    "est_cost_usd": 0.00047
+  },
+  {
+    "query_id": "adv_test2_cht_3",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p010_vis_0"
+    ],
+    "source_page": 10,
+    "evidence_location": "data/advanced/page_images/page_010.png | Biểu đồ 1: Tổng tài sản (tỷ đồng) -> Năm 2025",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 10 (['vnm2025_p010_vis_0']).",
+    "elapsed_ms": 2340.4,
+    "est_cost_usd": 0.000458
+  },
+  {
+    "query_id": "adv_test2_cht_4",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p012_vis_0"
+    ],
+    "source_page": 12,
+    "evidence_location": "data/advanced/page_images/page_012.png | Biểu đồ tròn: Cơ cấu cổ đông (trong nước / nước ngoài)",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 12 (['vnm2025_p012_vis_0']).",
+    "elapsed_ms": 2937.4,
+    "est_cost_usd": 0.00052
+  },
+  {
+    "query_id": "adv_test2_cht_5",
+    "category": "chart",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p011_vis_0"
+    ],
+    "source_page": 11,
+    "evidence_location": "data/advanced/page_images/page_011.png | Biểu đồ 2 & thông tin giá đóng cửa điều chỉnh",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 11 (['vnm2025_p011_vis_0']).",
+    "elapsed_ms": 3082.3,
+    "est_cost_usd": 0.000569
+  },
+  {
+    "query_id": "adv_test2_mh_1",
+    "category": "multi_hop",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p010_vis_0"
+    ],
+    "source_page": 10,
+    "evidence_location": "data/advanced/page_images/page_010.png | Biểu đồ 3: Lợi nhuận từ HĐKD 2025 (11.660) và 2024 (11.594)",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 10 (['vnm2025_p010_vis_0']).",
+    "elapsed_ms": 3536.3,
+    "est_cost_usd": 0.0005
+  },
+  {
+    "query_id": "adv_test2_mh_2",
+    "category": "multi_hop",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p010_txt_2",
+      "vnm2025_p011_txt_2"
+    ],
+    "source_page": 10,
+    "evidence_location": "data/advanced/page_images/page_010.png & page_011.png",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 10 (['vnm2025_p010_txt_2', 'vnm2025_p011_txt_2']).",
+    "elapsed_ms": 5288.6,
+    "est_cost_usd": 0.001207
+  },
+  {
+    "query_id": "adv_test2_mh_3",
+    "category": "multi_hop",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p072_vis_0",
+      "vnm2025_p110_txt_1"
+    ],
+    "source_page": 72,
+    "evidence_location": "data/advanced/page_images/page_072.png & page_110.png",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 72 (['vnm2025_p072_vis_0', 'vnm2025_p110_txt_1']).",
+    "elapsed_ms": 5114.9,
+    "est_cost_usd": 0.001152
+  },
+  {
+    "query_id": "adv_test2_mh_4",
+    "category": "multi_hop",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p026_txt_0"
+    ],
+    "source_page": 26,
+    "evidence_location": "data/advanced/page_images/page_026.png & page_047.png",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 26 (['vnm2025_p026_txt_0']).",
+    "elapsed_ms": 4585.4,
+    "est_cost_usd": 0.00098
+  },
+  {
+    "query_id": "adv_test2_txt_1",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p008_txt_0"
+    ],
+    "source_page": 8,
+    "evidence_location": "Trang 8 | Mục Tầm nhìn",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 8 (['vnm2025_p008_txt_0']).",
+    "elapsed_ms": 2282.6,
+    "est_cost_usd": 0.000428
+  },
+  {
+    "query_id": "adv_test2_txt_2",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p052_txt_0"
+    ],
+    "source_page": 52,
+    "evidence_location": "Trang 52 | Mục 1. Driftwood",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 52 (['vnm2025_p052_txt_0']).",
+    "elapsed_ms": 3951.1,
+    "est_cost_usd": 0.000487
+  },
+  {
+    "query_id": "adv_test2_txt_3",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p106_vis_0"
+    ],
+    "source_page": 106,
+    "evidence_location": "Trang 106 | Mục 1. Giấy Chứng nhận Đăng ký Doanh nghiệp",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 106 (['vnm2025_p106_vis_0']).",
+    "elapsed_ms": 2913.3,
+    "est_cost_usd": 0.000482
+  },
+  {
+    "query_id": "adv_test2_txt_4",
+    "category": "text",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citations": [
+      "vnm2025_p102_txt_6"
+    ],
+    "source_page": 102,
+    "evidence_location": "Trang 102 | Phần môi trường & nước thải",
+    "reason": "PASS: Trả lời đúng và đủ số liệu/đơn vị, đối chiếu hợp lệ trang 102 (['vnm2025_p102_txt_6']).",
+    "elapsed_ms": 2760.6,
+    "est_cost_usd": 0.00047
+  },
+  {
+    "query_id": "adv_test2_unans_1",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "passed": true,
+    "citations": [],
+    "source_page": null,
+    "evidence_location": "Không có kế hoạch quỹ lương năm 2028 trong báo cáo",
+    "reason": "PASS: Từ chối chính xác câu hỏi thiếu bằng chứng, không suy đoán.",
+    "elapsed_ms": 3524.0,
+    "est_cost_usd": 0.000981
+  },
+  {
+    "query_id": "adv_test2_unans_2",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "passed": true,
+    "citations": [],
+    "source_page": null,
+    "evidence_location": "Không có giao dịch nào liên quan đến Tesla trong báo cáo",
+    "reason": "PASS: Từ chối chính xác câu hỏi thiếu bằng chứng, không suy đoán.",
+    "elapsed_ms": 2332.0,
+    "est_cost_usd": 0.000451
+  },
+  {
+    "query_id": "adv_test2_unans_3",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "passed": true,
+    "citations": [],
+    "source_page": null,
+    "evidence_location": "Tài liệu chỉ có 112 trang, không có trang 120",
+    "reason": "PASS: Từ chối chính xác câu hỏi thiếu bằng chứng, không suy đoán.",
+    "elapsed_ms": 2201.0,
+    "est_cost_usd": 0.000422
+  },
+  {
+    "query_id": "adv_test2_unans_4",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "passed": true,
+    "citations": [],
+    "source_page": null,
+    "evidence_location": "Thông tin bảo mật ngân hàng không tồn tại trong báo cáo",
+    "reason": "PASS: Từ chối chính xác câu hỏi thiếu bằng chứng, không suy đoán.",
+    "elapsed_ms": 2079.5,
+    "est_cost_usd": 0.000407
+  },
+  {
+    "query_id": "adv_test2_unans_5",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "answered",
+    "passed": false,
+    "citations": [
+      "vnm2025_p038_txt_0"
+    ],
+    "source_page": null,
+    "evidence_location": "Thông tin phi lý không tồn tại trong tài liệu",
+    "reason": "FAIL: Câu hỏi bẫy vô lý ('bò giải phương trình bậc hai') nhưng Agent trả lời số lượng đàn bò 130.000 con thay vì từ chối do thiếu bằng chứng.",
+    "elapsed_ms": 3057.4,
+    "est_cost_usd": 0.000498
+  },
+  {
+    "query_id": "adv_test2_unans_6",
+    "category": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "passed": true,
+    "citations": [],
+    "source_page": null,
+    "evidence_location": "Chưa có số liệu năm 2027 trong báo cáo 2025",
+    "reason": "PASS: Từ chối chính xác câu hỏi thiếu bằng chứng, không suy đoán.",
+    "elapsed_ms": 2622.0,
+    "est_cost_usd": 0.000461
+  }
+]

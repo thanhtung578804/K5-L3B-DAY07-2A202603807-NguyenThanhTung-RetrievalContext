@@ -1,0 +1,54 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "comment": "Trúng sự kiện khu trường mới nhưng nhầm lẫn giữa năm khởi công 1960 và khánh thành 1965."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "comment": "Trả lời hoàn toàn chính xác và đầy đủ: Cử nhân 4 năm, Thạc sĩ 1.5 năm, tổng 5.5 năm."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "comment": "Chính xác tuyệt đối: cộng 4 điểm rèn luyện."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "comment": "Chính xác và đầy đủ đối tượng sinh viên hệ đại học chính quy."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "comment": "Chính xác đầy đủ cả 2 trang thông tin điện tử HUST.EDU.VN và CTT.HUST.EDU.VN."
+  },
+  {
+    "query_id": "q23_unans",
+    "abstention_correct": true,
+    "citation_support": [],
+    "comment": "Từ chối chính xác: Sổ tay sinh viên 2026 không quy định danh sách bệnh viện khám sức khỏe cho sinh viên quốc tế."
+  },
+  {
+    "query_id": "q24_unans",
+    "abstention_correct": true,
+    "citation_support": [],
+    "comment": "Từ chối chính xác: Thư viện Tạ Quang Bửu không có dịch vụ mở cửa xuyên đêm 24/7."
+  }
+]

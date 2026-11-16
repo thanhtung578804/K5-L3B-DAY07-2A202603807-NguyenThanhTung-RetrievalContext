@@ -1,0 +1,14 @@
+{
+  "strategy": "Method 2: Gemini Dense Retrieval",
+  "split": "dev",
+  "n": 15,
+  "hit1": 9,
+  "hit1_pct": 60.0,
+  "hit3": 15,
+  "hit3_pct": 100.0,
+  "context_hit": 9,
+  "context_hit_pct": 60.0,
+  "avg_context_chars": 611.1,
+  "median_ms": 928.81,
+  "service_cost_usd": 0.0
+}

@@ -1,0 +1,14 @@
+{
+  "strategy": "Selected Config Test: Hybrid RRF Budget 1200",
+  "split": "test",
+  "n": 5,
+  "hit1": 4,
+  "hit1_pct": 80.0,
+  "hit3": 5,
+  "hit3_pct": 100.0,
+  "context_hit": 4,
+  "context_hit_pct": 80.0,
+  "avg_context_chars": 820.2,
+  "median_ms": 756.84,
+  "service_cost_usd": 0.0
+}

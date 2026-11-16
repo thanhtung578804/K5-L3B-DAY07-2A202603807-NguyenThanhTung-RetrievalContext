@@ -1,0 +1,791 @@
+[
+  {
+    "query_id": "adv_dev_tbl_1",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo bảng Các chỉ tiêu tài chính quan trọng (trang 11), Hệ số thanh toán ngắn hạn của Vinamilk năm 2025 là bao nhiêu?",
+    "expected_answer": "1,96",
+    "status": "answered",
+    "answer": "Hệ số thanh toán ngắn hạn của Vinamilk năm 2025 là 1,96 [vnm2025_p011_vis_0].",
+    "citations": [
+      "vnm2025_p011_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Hệ số thanh toán ngắn hạn",
+        "page_hint": 11,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p011_txt_0",
+          "vnm2025_p011_vis_0",
+          "vnm2025_p011_txt_3",
+          "vnm2025_p011_txt_1",
+          "vnm2025_p011_vis_1",
+          "vnm2025_p011_txt_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p011_txt_0",
+          "vnm2025_p011_vis_0",
+          "vnm2025_p011_txt_3",
+          "vnm2025_p011_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 19762.0,
+    "tokens": {
+      "prompt": 3111,
+      "completion": 50
+    },
+    "est_cost_usd": 0.000497
+  },
+  {
+    "query_id": "adv_dev_tbl_2",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo bảng Cơ cấu cổ đông tính đến 31/12/2025 (trang 12), Cổ đông Nhà nước nắm giữ bao nhiêu cổ phần và tỷ lệ sở hữu bao nhiêu phần trăm?",
+    "expected_answer": "752.476.602 cổ phần, chiếm tỷ lệ 36,00%",
+    "status": "answered",
+    "answer": "Tính đến ngày 31/12/2025, Cổ đông Nhà nước nắm giữ 752.476.602 cổ phần, tương ứng với tỷ lệ sở hữu là 36,00% trong tổng số cổ phần của công ty Vinamilk [vnm2025_p012_vis_0].",
+    "citations": [
+      "vnm2025_p012_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Cơ cấu cổ đông tính đến 31/12/2025",
+        "page_hint": 12,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p012_txt_0",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p012_txt_2",
+          "vnm2025_p012_txt_3",
+          "vnm2025_p012_txt_1",
+          "vnm2025_p012_txt_4"
+        ],
+        "packed_ids": [
+          "vnm2025_p012_txt_0",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p012_txt_2",
+          "vnm2025_p012_txt_3"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3065.6,
+    "tokens": {
+      "prompt": 3183,
+      "completion": 88
+    },
+    "est_cost_usd": 0.00053
+  },
+  {
+    "query_id": "adv_dev_tbl_3",
+    "split": "dev",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất năm 2025 (trang 109), Lợi nhuận gộp của Vinamilk năm 2025 đạt bao nhiêu triệu VND?",
+    "expected_answer": "15.542.110 triệu VND",
+    "status": "answered",
+    "answer": "Lợi nhuận gộp của Vinamilk năm 2025 đạt 15.542.110 triệu VND (15.542 tỷ đồng) [vnm2025_p109_vis_0].",
+    "citations": [
+      "vnm2025_p109_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Lợi nhuận gộp năm 2025",
+        "page_hint": 109,
+        "results_count": 4,
+        "top_ids": [
+          "vnm2025_p109_txt_0",
+          "vnm2025_p109_vis_0",
+          "vnm2025_p109_txt_1",
+          "vnm2025_p109_txt_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p109_txt_0",
+          "vnm2025_p109_vis_0",
+          "vnm2025_p109_txt_1",
+          "vnm2025_p109_txt_2"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3911.8,
+    "tokens": {
+      "prompt": 2778,
+      "completion": 64
+    },
+    "est_cost_usd": 0.000455
+  },
+  {
+    "query_id": "adv_dev_img_1",
+    "split": "dev",
+    "category": "image_diagram",
+    "answerable": true,
+    "question": "Theo sơ đồ Lịch sử hình thành (trang 7), năm 1976 Vinamilk được thành lập với tên gọi ban đầu là gì và tiếp quản 03 nhà máy nào?",
+    "expected_answer": "Công ty Sữa – Cà Phê Miền Nam, tiếp quản 03 nhà máy sữa Thống Nhất, Trường Thọ và sữa bột Dielac",
+    "status": "answered",
+    "answer": "Vinamilk được thành lập vào năm 1976 với tên gọi ban đầu là **Công ty Sữa – Cà Phê Miền Nam**. Công ty đã tiếp quản 03 nhà máy sữa là **Thống Nhất**, **Trường Thọ**, và **sữa bột Dielac** [vnm2025_p007_txt_0].",
+    "citations": [
+      "vnm2025_p007_txt_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Lịch sử hình thành",
+        "page_hint": 7,
+        "results_count": 4,
+        "top_ids": [
+          "vnm2025_p007_txt_0",
+          "vnm2025_p007_vis_0",
+          "vnm2025_p007_txt_2",
+          "vnm2025_p007_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p007_txt_0",
+          "vnm2025_p007_vis_0",
+          "vnm2025_p007_txt_2",
+          "vnm2025_p007_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 4191.0,
+    "tokens": {
+      "prompt": 2944,
+      "completion": 93
+    },
+    "est_cost_usd": 0.000497
+  },
+  {
+    "query_id": "adv_dev_img_2",
+    "split": "dev",
+    "category": "image_diagram",
+    "answerable": true,
+    "question": "Theo Sơ đồ tổ chức và quản lý của công ty (trang 13), sơ đồ này được ban hành theo Nghị quyết số bao nhiêu và ngày nào của HĐQT?",
+    "expected_answer": "Nghị quyết số 10 NQ-CTS.HĐQT/2025 ngày 30/07/2025",
+    "status": "answered",
+    "answer": "Sơ đồ tổ chức và quản lý của công ty được ban hành theo Nghị quyết số 10 NQ-CTS.HĐQT/2025 ngày 30/07/2025 của Hội đồng Quản trị [vnm2025_p013_vis_0].",
+    "citations": [
+      "vnm2025_p013_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Sơ đồ tổ chức và quản lý",
+        "page_hint": 13,
+        "results_count": 2,
+        "top_ids": [
+          "vnm2025_p013_vis_0",
+          "vnm2025_p013_txt_0"
+        ],
+        "packed_ids": [
+          "vnm2025_p013_vis_0",
+          "vnm2025_p013_txt_0"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2775.4,
+    "tokens": {
+      "prompt": 1928,
+      "completion": 74
+    },
+    "est_cost_usd": 0.000334
+  },
+  {
+    "query_id": "adv_dev_img_3",
+    "split": "dev",
+    "category": "image_diagram",
+    "answerable": true,
+    "question": "Theo trang 14 (Cấu trúc tập đoàn Vinamilk), Công ty Cổ phần Sữa Việt Nam có bao nhiêu nhà máy sản xuất sữa trong nước và bao nhiêu chi nhánh văn phòng bán hàng?",
+    "expected_answer": "13 nhà máy sản xuất sữa tại Bắc, Trung, Nam và 03 chi nhánh văn phòng bán hàng tại Hà Nội, Đà Nẵng và Cần Thơ",
+    "status": "answered",
+    "answer": "Theo thông tin trên trang 14 của Báo cáo thường niên Vinamilk 2025, Công ty Cổ phần Sữa Việt Nam có:\n\n- **13 nhà máy sản xuất sữa** tại Bắc, Trung, Nam.\n- **03 chi nhánh văn phòng bán hàng** tại Hà Nội, Đà Nẵng và Cần Thơ. \n\nNguồn: [vnm2025_p014_txt_0]",
+    "citations": [
+      "vnm2025_p014_txt_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Cấu trúc tập đoàn Vinamilk",
+        "page_hint": 14,
+        "results_count": 3,
+        "top_ids": [
+          "vnm2025_p014_txt_0",
+          "vnm2025_p014_vis_0",
+          "vnm2025_p014_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p014_txt_0",
+          "vnm2025_p014_vis_0",
+          "vnm2025_p014_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3205.4,
+    "tokens": {
+      "prompt": 2223,
+      "completion": 109
+    },
+    "est_cost_usd": 0.000399
+  },
+  {
+    "query_id": "adv_dev_cht_1",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ tài chính Tổng tài sản giai đoạn 2021 - 2025 (trang 10), năm nào Vinamilk có Tổng tài sản cao nhất và đạt bao nhiêu tỷ đồng?",
+    "expected_answer": "Năm 2024 đạt 55.049 tỷ đồng",
+    "status": "answered",
+    "answer": "Theo biểu đồ tài chính Tổng tài sản giai đoạn 2021 - 2025, Vinamilk có Tổng tài sản cao nhất vào năm **2024**, đạt **55.049 tỷ đồng**. Các số liệu tổng tài sản trong các năm như sau:\n\n- **2021:** 53.332 tỷ đồng\n- **2022:** 48.483 tỷ đồng\n- **2023:** 52.673 tỷ đồng\n- **2024:** 55.049 tỷ đồng\n- **2025:** 53.312 tỷ đồng\n\nNguồn: [vnm2025_p010_vis_0]",
+    "citations": [
+      "vnm2025_p010_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Tổng tài sản giai đoạn 2021 - 2025",
+        "page_hint": 10,
+        "results_count": 5,
+        "top_ids": [
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_vis_1",
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_txt_0",
+          "vnm2025_p010_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_vis_1",
+          "vnm2025_p010_txt_2"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3664.6,
+    "tokens": {
+      "prompt": 2842,
+      "completion": 153
+    },
+    "est_cost_usd": 0.000518
+  },
+  {
+    "query_id": "adv_dev_cht_2",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ Doanh thu thuần giai đoạn 2021 - 2025 (trang 10), doanh thu thuần năm 2025 của Vinamilk đạt bao nhiêu tỷ đồng?",
+    "expected_answer": "63.646 tỷ đồng",
+    "status": "answered",
+    "answer": "Doanh thu thuần năm 2025 của Vinamilk đạt 63.646 tỷ đồng [vnm2025_p010_vis_0].",
+    "citations": [
+      "vnm2025_p010_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Doanh thu thuần giai đoạn 2021 - 2025",
+        "page_hint": 10,
+        "results_count": 5,
+        "top_ids": [
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_vis_1",
+          "vnm2025_p010_txt_0",
+          "vnm2025_p010_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_vis_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2607.0,
+    "tokens": {
+      "prompt": 2844,
+      "completion": 56
+    },
+    "est_cost_usd": 0.00046
+  },
+  {
+    "query_id": "adv_dev_cht_3",
+    "split": "dev",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ tròn Cơ cấu cổ đông trên trang 12, tỷ lệ cổ đông nước ngoài và cổ đông trong nước lần lượt là bao nhiêu phần trăm?",
+    "expected_answer": "Cổ đông nước ngoài chiếm 50,9% và cổ đông trong nước chiếm 49,1%",
+    "status": "answered",
+    "answer": "Theo biểu đồ tròn về cơ cấu cổ đông trên trang 12 của Báo cáo thường niên Vinamilk 2025, tỷ lệ cổ đông trong nước là **49,1%** và tỷ lệ cổ đông nước ngoài là **50,9%** [vnm2025_p012_vis_0].",
+    "citations": [
+      "vnm2025_p012_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Cơ cấu cổ đông",
+        "page_hint": 12,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p012_txt_0",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p012_txt_2",
+          "vnm2025_p012_txt_1",
+          "vnm2025_p012_txt_3",
+          "vnm2025_p012_txt_4"
+        ],
+        "packed_ids": [
+          "vnm2025_p012_txt_0",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p012_txt_2",
+          "vnm2025_p012_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2959.2,
+    "tokens": {
+      "prompt": 3121,
+      "completion": 81
+    },
+    "est_cost_usd": 0.000517
+  },
+  {
+    "query_id": "adv_dev_mh_1",
+    "split": "dev",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Theo biểu đồ Doanh thu thuần (trang 10), doanh thu thuần năm 2025 tăng thêm bao nhiêu tỷ đồng so với năm 2024?",
+    "expected_answer": "1.863 tỷ đồng (63.646 - 61.783)",
+    "status": "answered",
+    "answer": "Doanh thu thuần của Vinamilk trong năm 2024 là 61.783 tỷ đồng và trong năm 2025 là 63.646 tỷ đồng. \n\nSự tăng trưởng doanh thu thuần từ năm 2024 đến năm 2025 là:\n\n\\[ \n63.646 - 61.783 = 1.863 \\text{ tỷ đồng} \n\\]\n\nVậy doanh thu thuần năm 2025 tăng thêm 1.863 tỷ đồng so với năm 2024. \n\nNguồn: [vnm2025_p010_vis_0]",
+    "citations": [
+      "vnm2025_p010_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Doanh thu thuần",
+        "page_hint": 10,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p010_vis_0",
+          "vnm2025_p029_txt_2",
+          "vnm2025_p010_txt_2",
+          "vnm2025_p109_txt_1",
+          "vnm2025_p010_txt_0",
+          "vnm2025_p109_vis_0",
+          "vnm2025_p048_txt_4",
+          "vnm2025_p010_vis_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p010_vis_0",
+          "vnm2025_p029_txt_2",
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_txt_0"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3412.7,
+    "tokens": {
+      "prompt": 2948,
+      "completion": 135
+    },
+    "est_cost_usd": 0.000523
+  },
+  {
+    "query_id": "adv_dev_mh_2",
+    "split": "dev",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Kết hợp thông tin từ trang 11 và trang 12, công ty kiểm toán độc lập cho Vinamilk là đơn vị nào và cổ đông lớn nhất sở hữu 36,00% là tổ chức nào?",
+    "expected_answer": "Công ty kiểm toán độc lập là Công ty TNHH KPMG Việt Nam (trang 11), cổ đông lớn nhất là Tổng Công ty Đầu tư và Kinh doanh vốn Nhà nước - Công ty TNHH (SCIC) với 36,00% (trang 12)",
+    "status": "answered",
+    "answer": "Công ty kiểm toán độc lập cho Vinamilk trong năm tài chính 2025 là **Công ty TNHH KPMG Việt Nam (KPMG)**, được phê duyệt bởi Hội đồng quản trị sau khi lựa chọn từ danh sách các đơn vị kiểm toán độc lập khác như PwC, Ernst & Young và Deloitte [vnm2025_p079_txt_2].\n\nCổ đông lớn nhất sở hữu 36,00% cổ phần của Vinamilk là **Tổng Công ty Đầu tư và Kinh doanh vốn Nhà nước - Công ty TNHH** [vnm2025_p012_txt_0].",
+    "citations": [
+      "vnm2025_p079_txt_2",
+      "vnm2025_p012_txt_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "công ty kiểm toán độc lập",
+        "page_hint": 11,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p011_txt_1",
+          "vnm2025_p079_txt_1",
+          "vnm2025_p034_txt_3",
+          "vnm2025_p011_txt_0",
+          "vnm2025_p079_txt_2",
+          "vnm2025_p011_vis_0",
+          "vnm2025_p011_txt_3",
+          "vnm2025_p079_txt_0"
+        ],
+        "packed_ids": [
+          "vnm2025_p011_txt_1",
+          "vnm2025_p079_txt_1",
+          "vnm2025_p034_txt_3",
+          "vnm2025_p011_txt_0",
+          "vnm2025_p079_txt_2",
+          "vnm2025_p011_txt_3"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "cổ đông lớn nhất 36,00%",
+        "page_hint": 12,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p012_txt_0",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p012_txt_1",
+          "vnm2025_p012_txt_2",
+          "vnm2025_p012_txt_3",
+          "vnm2025_p012_txt_4"
+        ],
+        "packed_ids": [
+          "vnm2025_p012_txt_0",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p012_txt_1",
+          "vnm2025_p012_txt_2"
+        ]
+      }
+    ],
+    "search_calls": 2,
+    "elapsed_ms": 4711.9,
+    "tokens": {
+      "prompt": 6962,
+      "completion": 174
+    },
+    "est_cost_usd": 0.001149
+  },
+  {
+    "query_id": "adv_dev_mh_3",
+    "split": "dev",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Theo trang 102 (Phát triển bền vững) và trang 104, Vinamilk đã thực hiện bao nhiêu giờ đào tạo trong năm 2025 và duy trì bao nhiêu phần trăm diện tích cỏ lâu năm tại trang trại?",
+    "expected_answer": "326.000 giờ đào tạo (trang 102) và duy trì 35% diện tích cỏ lâu năm tại trang trại (trang 104)",
+    "status": "answered",
+    "answer": "Trong năm 2025, Vinamilk đã thực hiện **326.000 giờ đào tạo** cho nhân viên của mình. Đồng thời, công ty duy trì **35% diện tích cỏ lâu năm** tại trang trại, áp dụng các biện pháp như luân canh và hệ thống hàng rào sinh học để bảo tồn đa dạng sinh học và cải thiện sức khỏe đất đai [vnm2025_p102_txt_2][vnm2025_p104_txt_0].",
+    "citations": [
+      "vnm2025_p102_txt_2",
+      "vnm2025_p104_txt_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "giờ đào tạo",
+        "page_hint": 102,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p102_txt_2",
+          "vnm2025_p102_txt_1",
+          "vnm2025_p102_vis_0",
+          "vnm2025_p102_txt_0",
+          "vnm2025_p102_txt_3",
+          "vnm2025_p102_txt_6",
+          "vnm2025_p102_txt_4",
+          "vnm2025_p102_vis_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p102_txt_2",
+          "vnm2025_p102_txt_1",
+          "vnm2025_p102_vis_0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "diện tích cỏ lâu năm",
+        "page_hint": 104,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p104_txt_0",
+          "vnm2025_p104_vis_0",
+          "vnm2025_p104_txt_3",
+          "vnm2025_p104_vis_1",
+          "vnm2025_p104_txt_2",
+          "vnm2025_p104_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p104_txt_0",
+          "vnm2025_p104_vis_0",
+          "vnm2025_p104_txt_3"
+        ]
+      }
+    ],
+    "search_calls": 2,
+    "elapsed_ms": 4381.0,
+    "tokens": {
+      "prompt": 5854,
+      "completion": 141
+    },
+    "est_cost_usd": 0.000963
+  },
+  {
+    "query_id": "adv_dev_txt_1",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 10 (Phát triển bền vững), Vinamilk đặt mục tiêu cắt giảm bao nhiêu phần trăm phát thải khí nhà kính (Phạm vi 1 và 2) vào năm 2027 và 2035 để tiến đến Net Zero năm 2050?",
+    "expected_answer": "Cắt giảm 15% vào năm 2027 và 63% vào năm 2035",
+    "status": "answered",
+    "answer": "Vinamilk đặt mục tiêu cắt giảm 15% phát thải khí nhà kính (Phạm vi 1 và 2) vào năm 2027 và 63% vào năm 2035, với mục tiêu tiến đến phát thải ròng bằng 0 vào năm 2050 [vnm2025_p010_txt_2].",
+    "citations": [
+      "vnm2025_p010_txt_2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "cắt giảm phát thải khí nhà kính Phạm vi 1 và 2 năm 2027 2035",
+        "page_hint": 10,
+        "results_count": 5,
+        "top_ids": [
+          "vnm2025_p010_txt_1",
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_txt_0",
+          "vnm2025_p010_vis_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p010_txt_1",
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 4882.8,
+    "tokens": {
+      "prompt": 2787,
+      "completion": 106
+    },
+    "est_cost_usd": 0.000482
+  },
+  {
+    "query_id": "adv_dev_txt_2",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 26 (Tổng quan về ngành sữa Việt Nam năm 2025), ngành hàng tiêu dùng nhanh (FMCG) và ngành sữa tại Việt Nam năm 2025 ghi nhận mức tăng trưởng lần lượt là bao nhiêu phần trăm?",
+    "expected_answer": "Ngành FMCG tăng trưởng 1,7% và ngành sữa tăng trưởng -2,4%",
+    "status": "answered",
+    "answer": "Theo báo cáo thường niên Vinamilk 2025, ngành hàng tiêu dùng nhanh (FMCG) tại Việt Nam ghi nhận mức tăng trưởng 1,7% trong năm 2025. Trong khi đó, ngành sữa lại ghi nhận mức tăng trưởng âm, cụ thể là -2,4% [vnm2025_p026_txt_0].",
+    "citations": [
+      "vnm2025_p026_txt_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Tổng quan về ngành sữa Việt Nam năm 2025",
+        "page_hint": 26,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p026_txt_0",
+          "vnm2025_p026_txt_6",
+          "vnm2025_p026_vis_0",
+          "vnm2025_p026_vis_1",
+          "vnm2025_p026_txt_2",
+          "vnm2025_p026_txt_3",
+          "vnm2025_p026_txt_5",
+          "vnm2025_p026_txt_4"
+        ],
+        "packed_ids": [
+          "vnm2025_p026_txt_0",
+          "vnm2025_p026_txt_6",
+          "vnm2025_p026_vis_0"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3056.2,
+    "tokens": {
+      "prompt": 2544,
+      "completion": 99
+    },
+    "est_cost_usd": 0.000441
+  },
+  {
+    "query_id": "adv_dev_txt_3",
+    "split": "dev",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 47 (Mảng thị trường nước ngoài), doanh thu xuất khẩu thương mại của Vinamilk năm 2025 đạt bao nhiêu tỷ đồng và tăng trưởng bao nhiêu phần trăm so với cùng kỳ?",
+    "expected_answer": "6.546 tỷ đồng, tăng trưởng 16,5% so với cùng kỳ",
+    "status": "answered",
+    "answer": "Doanh thu xuất khẩu thương mại của Vinamilk năm 2025 đạt **6.546 tỷ đồng** và tăng trưởng **16,5%** so với cùng kỳ năm trước [vnm2025_p047_vis_0].",
+    "citations": [
+      "vnm2025_p047_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "doanh thu xuất khẩu thương mại Vinamilk năm 2025",
+        "page_hint": 47,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p047_txt_4",
+          "vnm2025_p047_vis_0",
+          "vnm2025_p047_txt_3",
+          "vnm2025_p047_txt_2",
+          "vnm2025_p047_txt_0",
+          "vnm2025_p047_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p047_txt_4",
+          "vnm2025_p047_vis_0",
+          "vnm2025_p047_txt_3",
+          "vnm2025_p047_txt_2",
+          "vnm2025_p047_txt_0"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2560.7,
+    "tokens": {
+      "prompt": 2535,
+      "completion": 73
+    },
+    "est_cost_usd": 0.000424
+  },
+  {
+    "query_id": "adv_dev_unans_1",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Giá bán lẻ trung bình một hộp sữa tươi Vinamilk 100% dung tích 180ml tại siêu thị Big C Hà Nội năm 2025 là bao nhiêu đồng?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Giá bán lẻ trung bình một hộp sữa tươi Vinamilk 100% dung tích 180ml tại siêu thị Big C Hà Nội năm 2025",
+        "page_hint": null,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p046_txt_6",
+          "vnm2025_p014_txt_0",
+          "vnm2025_p046_vis_1",
+          "vnm2025_p030_txt_4",
+          "vnm2025_p047_vis_0",
+          "vnm2025_p029_vis_1",
+          "vnm2025_p080_txt_6",
+          "vnm2025_p029_vis_0"
+        ],
+        "packed_ids": [
+          "vnm2025_p046_txt_6",
+          "vnm2025_p014_txt_0",
+          "vnm2025_p046_vis_1",
+          "vnm2025_p030_txt_4"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2716.9,
+    "tokens": {
+      "prompt": 2828,
+      "completion": 50
+    },
+    "est_cost_usd": 0.000454
+  },
+  {
+    "query_id": "adv_dev_unans_2",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Vinamilk dự kiến xây dựng thêm nhà máy sản xuất sữa tại Sao Hỏa vào năm 2030 với tổng vốn đầu tư bao nhiêu tỷ USD?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "nhà máy sản xuất sữa tại Sao Hỏa",
+        "page_hint": 0,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p044_txt_2",
+          "vnm2025_p044_txt_10",
+          "vnm2025_p044_txt_3",
+          "vnm2025_p044_txt_1",
+          "vnm2025_p077_txt_4",
+          "vnm2025_p077_txt_3",
+          "vnm2025_p044_txt_11",
+          "vnm2025_p028_txt_5"
+        ],
+        "packed_ids": [
+          "vnm2025_p044_txt_2",
+          "vnm2025_p044_txt_10",
+          "vnm2025_p044_txt_3",
+          "vnm2025_p044_txt_1",
+          "vnm2025_p077_txt_4"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2405.6,
+    "tokens": {
+      "prompt": 2587,
+      "completion": 29
+    },
+    "est_cost_usd": 0.000405
+  },
+  {
+    "query_id": "adv_dev_unans_3",
+    "split": "dev",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Số điện thoại cá nhân và địa chỉ nhà riêng của Tổng Giám đốc Mai Kiều Liên được ghi ở trang nào trong báo cáo?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "số điện thoại cá nhân và địa chỉ nhà riêng của Tổng Giám đốc Mai Kiều Liên",
+        "page_hint": null,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p089_txt_9",
+          "vnm2025_p021_txt_0",
+          "vnm2025_p075_txt_11",
+          "vnm2025_p009_txt_1",
+          "vnm2025_p078_txt_3",
+          "vnm2025_p089_txt_10",
+          "vnm2025_p021_vis_0",
+          "vnm2025_p066_txt_8"
+        ],
+        "packed_ids": [
+          "vnm2025_p089_txt_9",
+          "vnm2025_p021_txt_0",
+          "vnm2025_p075_txt_11",
+          "vnm2025_p009_txt_1",
+          "vnm2025_p078_txt_3",
+          "vnm2025_p089_txt_10"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2265.1,
+    "tokens": {
+      "prompt": 2796,
+      "completion": 35
+    },
+    "est_cost_usd": 0.00044
+  }
+]

@@ -1,0 +1,1337 @@
+[
+  {
+    "query_id": "adv_test2_tbl_1",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo bảng Các chỉ tiêu tài chính quan trọng (trang 11), Hệ số nợ trên Vốn chủ sở hữu của Vinamilk năm 2022 và năm 2025 lần lượt là bao nhiêu phần trăm?",
+    "expected_answer": "Năm 2022 là 15,0% và năm 2025 là 27,4%",
+    "status": "answered",
+    "answer": "Hệ số nợ trên Vốn chủ sở hữu của Vinamilk trong năm 2022 là 15,0% và trong năm 2025 là 27,4%[vnm2025_p011_vis_0].",
+    "citations": [
+      "vnm2025_p011_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Hệ số nợ trên Vốn chủ sở hữu",
+        "page_hint": 11,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p011_txt_0",
+          "vnm2025_p011_txt_1",
+          "vnm2025_p011_vis_0",
+          "vnm2025_p011_txt_2",
+          "vnm2025_p011_vis_1",
+          "vnm2025_p011_txt_3"
+        ],
+        "packed_ids": [
+          "vnm2025_p011_txt_0",
+          "vnm2025_p011_txt_1",
+          "vnm2025_p011_vis_0",
+          "vnm2025_p011_txt_2"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3411.3,
+    "tokens": {
+      "prompt": 3339,
+      "completion": 70
+    },
+    "est_cost_usd": 0.000543
+  },
+  {
+    "query_id": "adv_test2_tbl_2",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo bảng Các chỉ tiêu tài chính quan trọng (trang 11), Vòng quay hàng tồn kho của Vinamilk năm 2023 và năm 2025 lần lượt là bao nhiêu?",
+    "expected_answer": "Năm 2023 là 6,14 và năm 2025 là 5,98",
+    "status": "answered",
+    "answer": "Vòng quay hàng tồn kho của Vinamilk trong năm 2023 là 6,14 lần và dự kiến trong năm 2025 là 5,98 lần [vnm2025_p011_vis_0].",
+    "citations": [
+      "vnm2025_p011_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Vòng quay hàng tồn kho",
+        "page_hint": 11,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p011_txt_0",
+          "vnm2025_p011_txt_1",
+          "vnm2025_p011_vis_0",
+          "vnm2025_p011_txt_3",
+          "vnm2025_p011_vis_1",
+          "vnm2025_p011_txt_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p011_txt_0",
+          "vnm2025_p011_txt_1",
+          "vnm2025_p011_vis_0",
+          "vnm2025_p011_txt_3"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2548.9,
+    "tokens": {
+      "prompt": 3118,
+      "completion": 62
+    },
+    "est_cost_usd": 0.000505
+  },
+  {
+    "query_id": "adv_test2_tbl_3",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo danh sách cổ đông lớn trên trang 12, Platinum Victory Pte., Ltd nắm giữ bao nhiêu cổ phần và tỷ lệ sở hữu bao nhiêu phần trăm?",
+    "expected_answer": "125.761.922 cổ phần, tỷ lệ sở hữu 6,02%",
+    "status": "answered",
+    "answer": "Platinum Victory Pte., Ltd nắm giữ 125.761.922 cổ phần, tương ứng với tỷ lệ sở hữu 6,02% trong tổng số cổ phần của Vinamilk tính đến ngày 31/12/2025 [vnm2025_p012_txt_3].",
+    "citations": [
+      "vnm2025_p012_txt_3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Platinum Victory Pte., Ltd",
+        "page_hint": 12,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p012_txt_3",
+          "vnm2025_p012_txt_2",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p012_txt_4",
+          "vnm2025_p012_txt_0",
+          "vnm2025_p012_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p012_txt_3",
+          "vnm2025_p012_txt_2",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p012_txt_4"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2936.1,
+    "tokens": {
+      "prompt": 3122,
+      "completion": 78
+    },
+    "est_cost_usd": 0.000515
+  },
+  {
+    "query_id": "adv_test2_tbl_4",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Bảng 1 (Theo Báo cáo tài chính riêng tại trang 72), Tổng nợ vay ngắn hạn và dài hạn của Vinamilk tại ngày 31/12/2025 là bao nhiêu tỷ đồng?",
+    "expected_answer": "8.841 tỷ đồng",
+    "status": "answered",
+    "answer": "Tổng nợ vay ngắn hạn và dài hạn của Vinamilk tại ngày 31/12/2025 là 8.841 tỷ đồng [vnm2025_p072_vis_0].",
+    "citations": [
+      "vnm2025_p072_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Bảng 1",
+        "page_hint": 72,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p072_vis_0",
+          "vnm2025_p072_vis_1",
+          "vnm2025_p072_txt_3",
+          "vnm2025_p072_txt_4",
+          "vnm2025_p072_txt_5",
+          "vnm2025_p072_txt_2",
+          "vnm2025_p072_txt_1",
+          "vnm2025_p072_txt_0"
+        ],
+        "packed_ids": [
+          "vnm2025_p072_vis_0",
+          "vnm2025_p072_txt_3",
+          "vnm2025_p072_txt_4"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2249.4,
+    "tokens": {
+      "prompt": 2697,
+      "completion": 56
+    },
+    "est_cost_usd": 0.000438
+  },
+  {
+    "query_id": "adv_test2_tbl_5",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Báo cáo tình hình tài chính hợp nhất (trang 108), Tiền và các khoản tương đương tiền của Vinamilk tại ngày 31/12/2025 là bao nhiêu triệu VND?",
+    "expected_answer": "1.794.880 triệu VND",
+    "status": "answered",
+    "answer": "Tiền và các khoản tương đương tiền của Vinamilk tại ngày 31/12/2025 là **1.794.880 triệu VND** [vnm2025_p108_vis_0].",
+    "citations": [
+      "vnm2025_p108_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Tiền và các khoản tương đương tiền",
+        "page_hint": 108,
+        "results_count": 5,
+        "top_ids": [
+          "vnm2025_p108_vis_0",
+          "vnm2025_p108_txt_0",
+          "vnm2025_p108_txt_1",
+          "vnm2025_p108_txt_2",
+          "vnm2025_p108_txt_3"
+        ],
+        "packed_ids": [
+          "vnm2025_p108_vis_0",
+          "vnm2025_p108_txt_0",
+          "vnm2025_p108_txt_1",
+          "vnm2025_p108_txt_3"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2232.4,
+    "tokens": {
+      "prompt": 3309,
+      "completion": 63
+    },
+    "est_cost_usd": 0.000534
+  },
+  {
+    "query_id": "adv_test2_tbl_6",
+    "split": "test",
+    "category": "table",
+    "answerable": true,
+    "question": "Theo Báo cáo kết quả hoạt động kinh doanh hợp nhất (trang 109), Giá vốn hàng bán và dịch vụ cung cấp năm 2025 của Vinamilk là bao nhiêu triệu VND?",
+    "expected_answer": "38.706.720 triệu VND",
+    "status": "answered",
+    "answer": "Giá vốn hàng bán và dịch vụ cung cấp năm 2025 của Vinamilk là 38.706.720 triệu VND [vnm2025_p109_vis_0].",
+    "citations": [
+      "vnm2025_p109_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Giá vốn hàng bán và dịch vụ cung cấp năm 2025",
+        "page_hint": 109,
+        "results_count": 4,
+        "top_ids": [
+          "vnm2025_p109_txt_0",
+          "vnm2025_p109_vis_0",
+          "vnm2025_p109_txt_1",
+          "vnm2025_p109_txt_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p109_txt_0",
+          "vnm2025_p109_vis_0",
+          "vnm2025_p109_txt_1",
+          "vnm2025_p109_txt_2"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2329.5,
+    "tokens": {
+      "prompt": 2777,
+      "completion": 63
+    },
+    "est_cost_usd": 0.000454
+  },
+  {
+    "query_id": "adv_test2_img_1",
+    "split": "test",
+    "category": "image_diagram",
+    "answerable": true,
+    "question": "Theo sơ đồ Lịch sử hình thành (trang 7), vào năm 2003 Vinamilk đã cổ phần hóa và đổi tên thành gì?",
+    "expected_answer": "Công ty Cổ phần Sữa Việt Nam",
+    "status": "answered",
+    "answer": "Vào năm 2003, Vinamilk đã cổ phần hóa và đổi tên thành **Công ty Cổ phần Sữa Việt Nam** [vnm2025_p007_txt_0].",
+    "citations": [
+      "vnm2025_p007_txt_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Lịch sử hình thành",
+        "page_hint": 7,
+        "results_count": 4,
+        "top_ids": [
+          "vnm2025_p007_txt_0",
+          "vnm2025_p007_vis_0",
+          "vnm2025_p007_txt_2",
+          "vnm2025_p007_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p007_txt_0",
+          "vnm2025_p007_vis_0",
+          "vnm2025_p007_txt_2",
+          "vnm2025_p007_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2161.3,
+    "tokens": {
+      "prompt": 2928,
+      "completion": 56
+    },
+    "est_cost_usd": 0.000473
+  },
+  {
+    "query_id": "adv_test2_img_2",
+    "split": "test",
+    "category": "image_diagram",
+    "answerable": true,
+    "question": "Theo trang 15 (Nhân sự chủ chốt Hội đồng Quản trị), ông Nguyễn Hạnh Phúc giữ những chức vụ gì tại Vinamilk?",
+    "expected_answer": "Chủ tịch HĐQT, Chủ tịch Ủy ban Nhân sự, Thành viên Ủy ban Lương thưởng, Thành viên độc lập HĐQT",
+    "status": "answered",
+    "answer": "Ông Nguyễn Hạnh Phúc giữ các chức vụ sau tại Vinamilk:\n\n1. Chủ tịch Hội đồng Quản trị (HĐQT)\n2. Chủ tịch Ủy ban Nhân sự\n3. Thành viên Ủy ban Lương thưởng\n4. Thành viên độc lập HĐQT\n\nThông tin này được trích từ Báo cáo thường niên Vinamilk 2025, trang 15 [vnm2025_p015_vis_0].",
+    "citations": [
+      "vnm2025_p015_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Nguyễn Hạnh Phúc",
+        "page_hint": 15,
+        "results_count": 3,
+        "top_ids": [
+          "vnm2025_p015_txt_0",
+          "vnm2025_p015_vis_0",
+          "vnm2025_p015_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p015_txt_0",
+          "vnm2025_p015_vis_0",
+          "vnm2025_p015_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2765.2,
+    "tokens": {
+      "prompt": 2287,
+      "completion": 117
+    },
+    "est_cost_usd": 0.000413
+  },
+  {
+    "query_id": "adv_test2_img_3",
+    "split": "test",
+    "category": "image_diagram",
+    "answerable": true,
+    "question": "Theo trang 40 (Dự án Trang trại bò sữa công nghệ cao), dự án trang trại này có quy mô bao nhiêu con và dự kiến đi vào hoạt động vào thời gian nào?",
+    "expected_answer": "Quy mô 4.000 con, dự kiến đi vào hoạt động Quý III/2026",
+    "status": "answered",
+    "answer": "Dự án Trang trại bò sữa công nghệ cao có quy mô 4.000 con và dự kiến sẽ đi vào hoạt động vào Quý III/2026 [vnm2025_p040_vis_0].",
+    "citations": [
+      "vnm2025_p040_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Dự án Trang trại bò sữa công nghệ cao",
+        "page_hint": 40,
+        "results_count": 5,
+        "top_ids": [
+          "vnm2025_p040_txt_2",
+          "vnm2025_p040_vis_0",
+          "vnm2025_p040_txt_0",
+          "vnm2025_p040_txt_1",
+          "vnm2025_p040_vis_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p040_txt_2",
+          "vnm2025_p040_vis_0",
+          "vnm2025_p040_txt_0",
+          "vnm2025_p040_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2431.0,
+    "tokens": {
+      "prompt": 2689,
+      "completion": 68
+    },
+    "est_cost_usd": 0.000444
+  },
+  {
+    "query_id": "adv_test2_img_4",
+    "split": "test",
+    "category": "image_diagram",
+    "answerable": true,
+    "question": "Theo trang 39 (Giấy chứng nhận GLOBAL S.I.P. / GLOBALG.A.P.), giấy chứng nhận có số đăng ký BVC-VN VT25008 được cấp cho đơn vị nào và có ngày hết hạn là ngày nào?",
+    "expected_answer": "Cấp cho VIET NAM DAIRY COW ONE-MEMBER COMPANY LIMITED (Công ty TNHH MTV Bò sữa Việt Nam), ngày hết hạn 26/11/2026",
+    "status": "answered",
+    "answer": "Giấy chứng nhận GLOBAL S.I.P. (GLOBALG.A.P.) với số đăng ký BVC-VN VT25008 được cấp cho đơn vị **Công ty TNHH Một thành viên Bò sữa Việt Nam** (VIET NAM DAIRY COW ONE-MEMBER COMPANY LIMITED). Giấy chứng nhận này có ngày hết hạn là **26/11/2026** [vnm2025_p039_vis_0].",
+    "citations": [
+      "vnm2025_p039_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Giấy chứng nhận GLOBAL S.I.P. / GLOBALG.A.P.",
+        "page_hint": 39,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p039_vis_0",
+          "vnm2025_p039_txt_0",
+          "vnm2025_p039_txt_4",
+          "vnm2025_p039_txt_5",
+          "vnm2025_p039_txt_6",
+          "vnm2025_p039_txt_1",
+          "vnm2025_p039_txt_7",
+          "vnm2025_p039_txt_8"
+        ],
+        "packed_ids": [
+          "vnm2025_p039_vis_0",
+          "vnm2025_p039_txt_0",
+          "vnm2025_p039_txt_4",
+          "vnm2025_p039_txt_5"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2627.3,
+    "tokens": {
+      "prompt": 2671,
+      "completion": 115
+    },
+    "est_cost_usd": 0.00047
+  },
+  {
+    "query_id": "adv_test2_img_5",
+    "split": "test",
+    "category": "image_diagram",
+    "answerable": true,
+    "question": "Theo trang 14 (Cấu trúc tập đoàn Vinamilk), Vinamilk có bao nhiêu chi nhánh văn phòng bán hàng trong nước và đặt tại những thành phố nào?",
+    "expected_answer": "03 chi nhánh văn phòng bán hàng tại Hà Nội, Đà Nẵng và Cần Thơ",
+    "status": "answered",
+    "answer": "Theo Báo cáo thường niên Vinamilk 2025, Vinamilk có **03 chi nhánh văn phòng bán hàng** trong nước, được đặt tại các thành phố sau:\n\n- Hà Nội\n- Đà Nẵng\n- Cần Thơ\n\nThông tin này được trích dẫn từ trang 14 của báo cáo [vnm2025_p014_txt_0].",
+    "citations": [
+      "vnm2025_p014_txt_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "chi nhánh văn phòng bán hàng trong nước",
+        "page_hint": 14,
+        "results_count": 3,
+        "top_ids": [
+          "vnm2025_p014_vis_0",
+          "vnm2025_p014_txt_0",
+          "vnm2025_p014_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p014_vis_0",
+          "vnm2025_p014_txt_0",
+          "vnm2025_p014_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2690.7,
+    "tokens": {
+      "prompt": 2205,
+      "completion": 100
+    },
+    "est_cost_usd": 0.000391
+  },
+  {
+    "query_id": "adv_test2_cht_1",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ Lợi nhuận từ HĐKD giai đoạn 2021 - 2025 (trang 10), lợi nhuận từ HĐKD của Vinamilk năm 2025 đạt bao nhiêu tỷ đồng?",
+    "expected_answer": "11.660 tỷ đồng",
+    "status": "answered",
+    "answer": "Lợi nhuận từ hoạt động kinh doanh (HĐKD) của Vinamilk năm 2025 đạt 11.660 tỷ đồng [vnm2025_p010_vis_0].",
+    "citations": [
+      "vnm2025_p010_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Lợi nhuận từ HĐKD 2025",
+        "page_hint": 10,
+        "results_count": 5,
+        "top_ids": [
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_vis_1",
+          "vnm2025_p010_txt_0",
+          "vnm2025_p010_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_vis_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2239.5,
+    "tokens": {
+      "prompt": 2852,
+      "completion": 61
+    },
+    "est_cost_usd": 0.000464
+  },
+  {
+    "query_id": "adv_test2_cht_2",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ Lợi nhuận trước thuế giai đoạn 2021 - 2025 (trang 10), lợi nhuận trước thuế năm 2021 và năm 2025 lần lượt là bao nhiêu tỷ đồng?",
+    "expected_answer": "Năm 2021 là 12.922 tỷ đồng và năm 2025 là 11.650 tỷ đồng",
+    "status": "answered",
+    "answer": "Lợi nhuận trước thuế của Vinamilk trong năm 2021 là 12.922 tỷ đồng và trong năm 2025 là 11.650 tỷ đồng [vnm2025_p010_vis_0].",
+    "citations": [
+      "vnm2025_p010_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Lợi nhuận trước thuế 2021 2025",
+        "page_hint": 10,
+        "results_count": 5,
+        "top_ids": [
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_vis_1",
+          "vnm2025_p010_txt_0",
+          "vnm2025_p010_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_vis_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3038.5,
+    "tokens": {
+      "prompt": 2856,
+      "completion": 70
+    },
+    "est_cost_usd": 0.00047
+  },
+  {
+    "query_id": "adv_test2_cht_3",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ Tổng tài sản giai đoạn 2021 - 2025 (trang 10), tổng tài sản của Vinamilk năm 2025 đạt bao nhiêu tỷ đồng?",
+    "expected_answer": "53.312 tỷ đồng",
+    "status": "answered",
+    "answer": "Tổng tài sản của Vinamilk năm 2025 đạt 53.312 tỷ đồng [vnm2025_p010_vis_0].",
+    "citations": [
+      "vnm2025_p010_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Tổng tài sản giai đoạn 2021 - 2025",
+        "page_hint": 10,
+        "results_count": 5,
+        "top_ids": [
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_vis_1",
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_txt_0",
+          "vnm2025_p010_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_vis_1",
+          "vnm2025_p010_txt_2"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2340.4,
+    "tokens": {
+      "prompt": 2836,
+      "completion": 54
+    },
+    "est_cost_usd": 0.000458
+  },
+  {
+    "query_id": "adv_test2_cht_4",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo biểu đồ tròn Cơ cấu cổ đông (trong nước vs nước ngoài) trên trang 12, nhóm cổ đông nào chiếm tỷ lệ cao hơn và chiếm bao nhiêu phần trăm?",
+    "expected_answer": "Cổ đông nước ngoài chiếm tỷ lệ cao hơn với 50,9% (so với cổ đông trong nước 49,1%)",
+    "status": "answered",
+    "answer": "Theo biểu đồ tròn về cơ cấu cổ đông trên trang 12 của Báo cáo thường niên Vinamilk 2025, cổ đông nước ngoài chiếm tỷ lệ cao hơn với 50,9%, trong khi cổ đông trong nước chiếm 49,1%[vnm2025_p012_vis_0].",
+    "citations": [
+      "vnm2025_p012_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Cơ cấu cổ đông",
+        "page_hint": 12,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p012_txt_0",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p012_txt_2",
+          "vnm2025_p012_txt_1",
+          "vnm2025_p012_txt_3",
+          "vnm2025_p012_txt_4"
+        ],
+        "packed_ids": [
+          "vnm2025_p012_txt_0",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p012_txt_2",
+          "vnm2025_p012_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2937.4,
+    "tokens": {
+      "prompt": 3135,
+      "completion": 83
+    },
+    "est_cost_usd": 0.00052
+  },
+  {
+    "query_id": "adv_test2_cht_5",
+    "split": "test",
+    "category": "chart",
+    "answerable": true,
+    "question": "Theo Biểu đồ 2: Biến động giá và Khối lượng giao dịch cổ phiếu VNM (trang 11), đường giá đóng cửa dao động trong khoảng biên độ bao nhiêu VNĐ trong năm 2025?",
+    "expected_answer": "Khoảng 52.000 đến 65.100 VNĐ/cổ phiếu",
+    "status": "answered",
+    "answer": "Trong năm 2025, giá cổ phiếu VNM dao động trong khoảng từ 52.000 VNĐ đến 65.100 VNĐ. Như vậy, biên độ dao động của giá cổ phiếu VNM là 13.100 VNĐ ([vnm2025_p011_vis_0]).",
+    "citations": [
+      "vnm2025_p011_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Biểu đồ 2: Biến động giá và Khối lượng giao dịch cổ phiếu VNM",
+        "page_hint": 11,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p011_vis_1",
+          "vnm2025_p011_vis_0",
+          "vnm2025_p011_txt_2",
+          "vnm2025_p011_txt_3",
+          "vnm2025_p011_txt_1",
+          "vnm2025_p011_txt_0"
+        ],
+        "packed_ids": [
+          "vnm2025_p011_vis_1",
+          "vnm2025_p011_vis_0",
+          "vnm2025_p011_txt_2",
+          "vnm2025_p011_txt_3"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3082.3,
+    "tokens": {
+      "prompt": 3407,
+      "completion": 96
+    },
+    "est_cost_usd": 0.000569
+  },
+  {
+    "query_id": "adv_test2_mh_1",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Theo biểu đồ Lợi nhuận từ HĐKD (trang 10), lợi nhuận từ HĐKD năm 2025 tăng thêm bao nhiêu tỷ đồng so với năm 2024?",
+    "expected_answer": "Tăng 66 tỷ đồng (11.660 - 11.594)",
+    "status": "answered",
+    "answer": "Lợi nhuận từ hoạt động kinh doanh (HĐKD) của Vinamilk trong năm 2024 là 11.594 tỷ đồng, và trong năm 2025 là 11.660 tỷ đồng. \n\nSự tăng trưởng lợi nhuận từ HĐKD năm 2025 so với năm 2024 là:\n\n\\[ \n11.660 - 11.594 = 66 \\text{ tỷ đồng} \n\\]\n\nVậy, lợi nhuận từ HĐKD năm 2025 tăng thêm 66 tỷ đồng so với năm 2024. \n\nNguồn: [vnm2025_p010_vis_0]",
+    "citations": [
+      "vnm2025_p010_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Lợi nhuận từ HĐKD",
+        "page_hint": 10,
+        "results_count": 5,
+        "top_ids": [
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_txt_1",
+          "vnm2025_p010_vis_1",
+          "vnm2025_p010_txt_0"
+        ],
+        "packed_ids": [
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3536.3,
+    "tokens": {
+      "prompt": 2729,
+      "completion": 151
+    },
+    "est_cost_usd": 0.0005
+  },
+  {
+    "query_id": "adv_test2_mh_2",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Kết hợp trang 10 và trang 11, mục tiêu cắt giảm phát thải khí nhà kính (Phạm vi 1 và 2) vào năm 2035 của Vinamilk là bao nhiêu phần trăm, và giá cổ phiếu VNM thấp nhất trong năm 2025 là bao nhiêu đồng?",
+    "expected_answer": "Cắt giảm 63% vào năm 2035 (trang 10); giá cổ phiếu VNM thấp nhất năm 2025 là 52.000 đồng/cổ phiếu (trang 11)",
+    "status": "answered",
+    "answer": "Mục tiêu cắt giảm phát thải khí nhà kính (Phạm vi 1 và 2) của Vinamilk vào năm 2035 là **63%** so với mức phát thải hiện tại. Ngoài ra, giá cổ phiếu VNM thấp nhất trong năm 2025 là **52.000 đồng/cổ phiếu** và cao nhất là **65.100 đồng/cổ phiếu** [vnm2025_p010_txt_2][vnm2025_p011_txt_2].",
+    "citations": [
+      "vnm2025_p010_txt_2",
+      "vnm2025_p011_txt_2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "mục tiêu cắt giảm phát thải khí nhà kính (Phạm vi 1 và 2) vào năm 2035",
+        "page_hint": 10,
+        "results_count": 5,
+        "top_ids": [
+          "vnm2025_p010_txt_1",
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0",
+          "vnm2025_p010_txt_0",
+          "vnm2025_p010_vis_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p010_txt_1",
+          "vnm2025_p010_txt_2",
+          "vnm2025_p010_vis_0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "giá cổ phiếu VNM thấp nhất trong năm 2025",
+        "page_hint": 11,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p011_txt_2",
+          "vnm2025_p011_vis_0",
+          "vnm2025_p011_vis_1",
+          "vnm2025_p011_txt_3",
+          "vnm2025_p011_txt_0",
+          "vnm2025_p011_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p011_txt_2",
+          "vnm2025_p011_vis_0",
+          "vnm2025_p011_vis_1",
+          "vnm2025_p011_txt_3"
+        ]
+      }
+    ],
+    "search_calls": 2,
+    "elapsed_ms": 5288.6,
+    "tokens": {
+      "prompt": 7340,
+      "completion": 176
+    },
+    "est_cost_usd": 0.001207
+  },
+  {
+    "query_id": "adv_test2_mh_3",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Theo Bảng 1 (trang 72) và trang 110, Nợ thuần / (Thặng dư tiền) theo BCTC riêng tại ngày 31/12/2025 là bao nhiêu tỷ đồng, và Lợi nhuận trước thuế hợp nhất năm 2025 theo Báo cáo lưu chuyển tiền tệ là bao nhiêu triệu VND?",
+    "expected_answer": "Thặng dư tiền BCTC riêng tại 31/12/2025 là 8.587 tỷ đồng (ghi (8.587) tỷ đồng ở trang 72); Lợi nhuận trước thuế hợp nhất năm 2025 là 10.741.612 triệu VND (trang 110)",
+    "status": "answered",
+    "answer": "Theo thông tin từ Bảng 1 trên trang 72 của Báo cáo thường niên Vinamilk 2025, **Nợ thuần / (Thặng dư tiền)** theo BCTC riêng tại ngày 31/12/2025 là **(8.587) tỷ đồng**. \n\nNgoài ra, theo Báo cáo lưu chuyển tiền tệ hợp nhất trên trang 110, **Lợi nhuận trước thuế hợp nhất năm 2025** là **10.741.612 triệu VND**, tương đương **10.742 tỷ VND**.\n\nTóm lại:\n- Nợ thuần / (Thặng dư tiền): **(8.587) tỷ đồng**.\n- Lợi nhuận trước thuế hợp nhất: **10.742 tỷ VND**. \n\nNguồn: [vnm2025_p072_vis_0], [vnm2025_p110_txt_1].",
+    "citations": [
+      "vnm2025_p072_vis_0",
+      "vnm2025_p110_txt_1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Bảng 1",
+        "page_hint": 72,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p072_vis_0",
+          "vnm2025_p072_vis_1",
+          "vnm2025_p072_txt_3",
+          "vnm2025_p072_txt_4",
+          "vnm2025_p072_txt_5",
+          "vnm2025_p072_txt_2",
+          "vnm2025_p072_txt_1",
+          "vnm2025_p072_txt_0"
+        ],
+        "packed_ids": [
+          "vnm2025_p072_vis_0",
+          "vnm2025_p072_txt_3",
+          "vnm2025_p072_txt_4"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Lợi nhuận trước thuế hợp nhất năm 2025",
+        "page_hint": 110,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p110_txt_0",
+          "vnm2025_p110_vis_0",
+          "vnm2025_p110_txt_1",
+          "vnm2025_p110_txt_3",
+          "vnm2025_p110_vis_1",
+          "vnm2025_p110_txt_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p110_txt_0",
+          "vnm2025_p110_vis_0",
+          "vnm2025_p110_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 2,
+    "elapsed_ms": 5114.9,
+    "tokens": {
+      "prompt": 6726,
+      "completion": 238
+    },
+    "est_cost_usd": 0.001152
+  },
+  {
+    "query_id": "adv_test2_mh_4",
+    "split": "test",
+    "category": "multi_hop",
+    "answerable": true,
+    "question": "Kết hợp thông tin từ trang 26 và trang 47, ngành sữa Việt Nam năm 2025 tăng trưởng bao nhiêu phần trăm, và doanh thu xuất khẩu thương mại của Vinamilk năm 2025 đạt bao nhiêu tỷ đồng?",
+    "expected_answer": "Ngành sữa Việt Nam năm 2025 tăng trưởng -2,4% (trang 26); doanh thu xuất khẩu thương mại đạt 6.546 tỷ đồng (trang 47)",
+    "status": "answered",
+    "answer": "Ngành sữa Việt Nam năm 2025 ghi nhận mức tăng trưởng âm là **-2,4%** so với năm trước, cho thấy những thách thức trong việc kích thích nhu cầu tiêu dùng trong bối cảnh thị trường hàng tiêu dùng nhanh (FMCG) tại Việt Nam chỉ tăng trưởng **1,7%**[vnm2025_p026_txt_0].\n\nVề doanh thu xuất khẩu thương mại của Vinamilk trong năm 2025, con số đạt được là **6.546 tỷ đồng**, với mức tăng trưởng **16,5%** so với cùng kỳ năm trước[​vnm2025_p047_txt_4].",
+    "citations": [
+      "vnm2025_p026_txt_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "ngành sữa Việt Nam năm 2025 tăng trưởng",
+        "page_hint": 26,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p026_txt_0",
+          "vnm2025_p026_txt_6",
+          "vnm2025_p026_vis_1",
+          "vnm2025_p026_vis_0",
+          "vnm2025_p026_txt_5",
+          "vnm2025_p026_txt_3",
+          "vnm2025_p026_txt_4",
+          "vnm2025_p026_txt_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p026_txt_0",
+          "vnm2025_p026_txt_6",
+          "vnm2025_p026_vis_1"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "doanh thu xuất khẩu thương mại của Vinamilk năm 2025",
+        "page_hint": 47,
+        "results_count": 6,
+        "top_ids": [
+          "vnm2025_p047_txt_4",
+          "vnm2025_p047_vis_0",
+          "vnm2025_p047_txt_3",
+          "vnm2025_p047_txt_2",
+          "vnm2025_p047_txt_0",
+          "vnm2025_p047_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p047_txt_4",
+          "vnm2025_p047_vis_0",
+          "vnm2025_p047_txt_3",
+          "vnm2025_p047_txt_2",
+          "vnm2025_p047_txt_0"
+        ]
+      }
+    ],
+    "search_calls": 2,
+    "elapsed_ms": 4585.4,
+    "tokens": {
+      "prompt": 5759,
+      "completion": 193
+    },
+    "est_cost_usd": 0.00098
+  },
+  {
+    "query_id": "adv_test2_txt_1",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 8 (Mô hình & chiến lược kinh doanh), phát biểu Tầm nhìn của Vinamilk là gì?",
+    "expected_answer": "Trở thành biểu tượng niềm tin hàng đầu Việt Nam về sản phẩm dinh dưỡng và sức khỏe phục vụ cuộc sống con người",
+    "status": "answered",
+    "answer": "Tầm nhìn của Vinamilk được nêu rõ trong Báo cáo thường niên 2025 là: “Trở thành biểu tượng niềm tin hàng đầu Việt Nam về sản phẩm dinh dưỡng và sức khỏe phục vụ cuộc sống con người” [vnm2025_p008_txt_0].",
+    "citations": [
+      "vnm2025_p008_txt_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Tầm nhìn",
+        "page_hint": 8,
+        "results_count": 5,
+        "top_ids": [
+          "vnm2025_p008_vis_0",
+          "vnm2025_p008_txt_1",
+          "vnm2025_p008_txt_0",
+          "vnm2025_p008_vis_1",
+          "vnm2025_p008_txt_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p008_vis_0",
+          "vnm2025_p008_txt_1",
+          "vnm2025_p008_txt_0"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2282.6,
+    "tokens": {
+      "prompt": 2547,
+      "completion": 76
+    },
+    "est_cost_usd": 0.000428
+  },
+  {
+    "query_id": "adv_test2_txt_2",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 52 (Đơn vị thành viên), lợi nhuận trước thuế năm 2025 của công ty con Driftwood tại Mỹ so với kế hoạch và cùng kỳ như thế nào?",
+    "expected_answer": "Lợi nhuận trước thuế tăng mạnh so với kế hoạch và so với cùng kỳ",
+    "status": "answered",
+    "answer": "Theo báo cáo thường niên Vinamilk 2025, lợi nhuận trước thuế của công ty con Driftwood tại Mỹ trong năm 2025 đã tăng mạnh so với kế hoạch và cũng tăng so với cùng kỳ năm trước. Cụ thể, doanh thu của Driftwood năm 2025 vượt 1,2% so với kế hoạch, cho thấy sự phát triển tích cực của công ty trong bối cảnh thị trường gặp nhiều khó khăn do chính sách thuế và chi phí tăng cao. Tuy nhiên, báo cáo không cung cấp số liệu cụ thể về con số lợi nhuận trước thuế. \n\nThông tin này được trích dẫn từ trang 52 của báo cáo thường niên [vnm2025_p052_txt_0].",
+    "citations": [
+      "vnm2025_p052_txt_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "lợi nhuận trước thuế Driftwood năm 2025",
+        "page_hint": 52,
+        "results_count": 7,
+        "top_ids": [
+          "vnm2025_p052_txt_0",
+          "vnm2025_p052_vis_0",
+          "vnm2025_p052_txt_1",
+          "vnm2025_p052_txt_3",
+          "vnm2025_p052_txt_2",
+          "vnm2025_p052_txt_4",
+          "vnm2025_p052_vis_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p052_txt_0",
+          "vnm2025_p052_vis_0",
+          "vnm2025_p052_txt_1"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3951.1,
+    "tokens": {
+      "prompt": 2532,
+      "completion": 178
+    },
+    "est_cost_usd": 0.000487
+  },
+  {
+    "query_id": "adv_test2_txt_3",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 106 (Thông tin về Công ty), Giấy chứng nhận đăng ký doanh nghiệp lần đầu (ngày 20/11/2003) của Vinamilk mang số hiệu bao nhiêu?",
+    "expected_answer": "4103001932",
+    "status": "answered",
+    "answer": "Giấy chứng nhận đăng ký doanh nghiệp lần đầu của Vinamilk mang số hiệu là **4103001932**, được cấp vào ngày **20 tháng 11 năm 2003**. Ngoài ra, Giấy chứng nhận đăng ký doanh nghiệp đã được điều chỉnh nhiều lần, với lần điều chỉnh gần đây nhất mang số hiệu **0300588569**, cấp vào ngày **13 tháng 8 năm 2025** [vnm2025_p106_vis_0].",
+    "citations": [
+      "vnm2025_p106_vis_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Giấy chứng nhận đăng ký doanh nghiệp lần đầu",
+        "page_hint": 106,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p106_txt_1",
+          "vnm2025_p106_txt_0",
+          "vnm2025_p106_vis_0",
+          "vnm2025_p106_txt_4",
+          "vnm2025_p106_vis_1",
+          "vnm2025_p106_txt_3",
+          "vnm2025_p106_txt_5",
+          "vnm2025_p106_txt_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p106_txt_1",
+          "vnm2025_p106_txt_0",
+          "vnm2025_p106_vis_0"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2913.3,
+    "tokens": {
+      "prompt": 2741,
+      "completion": 118
+    },
+    "est_cost_usd": 0.000482
+  },
+  {
+    "query_id": "adv_test2_txt_4",
+    "split": "test",
+    "category": "text",
+    "answerable": true,
+    "question": "Theo trang 102 (Phát triển bền vững), các nhà máy của Vinamilk vận hành hệ thống xử lý nước thải tập trung đạt tiêu chuẩn quy chuẩn kỹ thuật quốc gia nào?",
+    "expected_answer": "Đạt hoặc cao hơn QCVN 40:2011/BTNMT",
+    "status": "answered",
+    "answer": "Các nhà máy của Vinamilk vận hành hệ thống xử lý nước thải tập trung đạt hoặc cao hơn tiêu chuẩn quy chuẩn kỹ thuật quốc gia QCVN 40:2011/BTNMT. Điều này đảm bảo rằng 100% nhà máy của Vinamilk đều có hệ thống xử lý nước thải đạt tiêu chuẩn môi trường trước khi xả thải hoặc đấu nối [vnm2025_p102_txt_6].",
+    "citations": [
+      "vnm2025_p102_txt_6"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "hệ thống xử lý nước thải tập trung đạt tiêu chuẩn quy chuẩn kỹ thuật quốc gia",
+        "page_hint": 102,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p102_txt_7",
+          "vnm2025_p102_txt_6",
+          "vnm2025_p102_vis_1",
+          "vnm2025_p102_txt_2",
+          "vnm2025_p102_txt_4",
+          "vnm2025_p102_txt_3",
+          "vnm2025_p102_vis_2",
+          "vnm2025_p102_txt_5"
+        ],
+        "packed_ids": [
+          "vnm2025_p102_txt_7",
+          "vnm2025_p102_txt_6",
+          "vnm2025_p102_vis_1",
+          "vnm2025_p102_vis_2"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2760.6,
+    "tokens": {
+      "prompt": 2659,
+      "completion": 119
+    },
+    "est_cost_usd": 0.00047
+  },
+  {
+    "query_id": "adv_test2_unans_1",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Tổng quỹ lương thưởng dự kiến cho năm 2028 của riêng khối Marketing Vinamilk là bao nhiêu tỷ đồng?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "quỹ lương thưởng khối Marketing 2028",
+        "page_hint": null,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p045_txt_0",
+          "vnm2025_p045_txt_1",
+          "vnm2025_p065_txt_3",
+          "vnm2025_p045_txt_5",
+          "vnm2025_p077_txt_8",
+          "vnm2025_p025_txt_0",
+          "vnm2025_p045_txt_6",
+          "vnm2025_p035_vis_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p045_txt_0",
+          "vnm2025_p045_txt_1",
+          "vnm2025_p065_txt_3",
+          "vnm2025_p045_txt_5",
+          "vnm2025_p077_txt_8",
+          "vnm2025_p025_txt_0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "quỹ lương thưởng khối Marketing 2028",
+        "page_hint": 45,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p045_txt_0",
+          "vnm2025_p045_txt_5",
+          "vnm2025_p045_txt_1",
+          "vnm2025_p045_txt_6",
+          "vnm2025_p045_txt_4",
+          "vnm2025_p045_txt_2",
+          "vnm2025_p045_txt_3",
+          "vnm2025_p045_txt_7"
+        ],
+        "packed_ids": [
+          "vnm2025_p045_txt_0",
+          "vnm2025_p045_txt_5",
+          "vnm2025_p045_txt_1",
+          "vnm2025_p045_txt_6",
+          "vnm2025_p045_txt_4",
+          "vnm2025_p045_txt_2"
+        ]
+      }
+    ],
+    "search_calls": 2,
+    "elapsed_ms": 3524.0,
+    "tokens": {
+      "prompt": 6331,
+      "completion": 52
+    },
+    "est_cost_usd": 0.000981
+  },
+  {
+    "query_id": "adv_test2_unans_2",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Trong năm 2025, Vinamilk đã mua lại bao nhiêu phần trăm cổ phần của hãng xe điện Tesla?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "mua lại cổ phần Tesla",
+        "page_hint": 0,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p012_txt_0",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p069_txt_2",
+          "vnm2025_p007_vis_0",
+          "vnm2025_p044_txt_12",
+          "vnm2025_p098_txt_1",
+          "vnm2025_p012_txt_2",
+          "vnm2025_p029_txt_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p012_txt_0",
+          "vnm2025_p012_vis_0",
+          "vnm2025_p069_txt_2",
+          "vnm2025_p044_txt_12"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2332.0,
+    "tokens": {
+      "prompt": 2914,
+      "completion": 24
+    },
+    "est_cost_usd": 0.000451
+  },
+  {
+    "query_id": "adv_test2_unans_3",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Bảng thống kê doanh số bán hàng tại tỉnh Bắc Cực ở trang 120 của báo cáo ghi nhận kết quả bao nhiêu tỷ đồng?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "doanh số bán hàng tại tỉnh Bắc Cực",
+        "page_hint": 120,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p031_txt_2",
+          "vnm2025_p029_txt_3",
+          "vnm2025_p046_txt_4",
+          "vnm2025_p077_txt_5",
+          "vnm2025_p077_txt_1",
+          "vnm2025_p048_txt_2",
+          "vnm2025_p077_txt_4",
+          "vnm2025_p016_txt_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p031_txt_2",
+          "vnm2025_p029_txt_3",
+          "vnm2025_p046_txt_4",
+          "vnm2025_p077_txt_5",
+          "vnm2025_p077_txt_1",
+          "vnm2025_p048_txt_2"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2201.0,
+    "tokens": {
+      "prompt": 2704,
+      "completion": 28
+    },
+    "est_cost_usd": 0.000422
+  },
+  {
+    "query_id": "adv_test2_unans_4",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Mã PIN thẻ ngân hàng doanh nghiệp của Công ty Cổ phần Sữa Việt Nam được công bố ở mục nào?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Mã PIN thẻ ngân hàng doanh nghiệp",
+        "page_hint": 112,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p064_txt_1",
+          "vnm2025_p062_txt_1",
+          "vnm2025_p017_txt_1",
+          "vnm2025_p050_txt_6",
+          "vnm2025_p073_txt_6",
+          "vnm2025_p064_txt_4",
+          "vnm2025_p078_txt_3",
+          "vnm2025_p108_txt_2"
+        ],
+        "packed_ids": [
+          "vnm2025_p064_txt_1",
+          "vnm2025_p062_txt_1",
+          "vnm2025_p017_txt_1",
+          "vnm2025_p050_txt_6",
+          "vnm2025_p073_txt_6",
+          "vnm2025_p064_txt_4"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2079.5,
+    "tokens": {
+      "prompt": 2602,
+      "completion": 27
+    },
+    "est_cost_usd": 0.000407
+  },
+  {
+    "query_id": "adv_test2_unans_5",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Có bao nhiêu con bò tại trang trại Vinamilk biết giải phương trình bậc hai trong năm 2025?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "status": "answered",
+    "answer": "Năm 2025, Vinamilk có tổng đàn bò sữa trên 130.000 con, trong đó có 39.500 con bò sữa đang được nuôi tại 15 trang trại hiện đại, công nghệ cao trực thuộc Vinamilk và Mộc Châu Milk. Ngoài ra, còn có 4.000 hộ chăn nuôi trong phạm vi cả nước tham gia vào chuỗi cung ứng này [vnm2025_p038_txt_0].",
+    "citations": [
+      "vnm2025_p038_txt_0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "bò tại trang trại Vinamilk 2025",
+        "page_hint": null,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p038_txt_0",
+          "vnm2025_p038_vis_0",
+          "vnm2025_p052_vis_0",
+          "vnm2025_p028_vis_0",
+          "vnm2025_p101_txt_0",
+          "vnm2025_p080_txt_6",
+          "vnm2025_p030_txt_3",
+          "vnm2025_p102_vis_1"
+        ],
+        "packed_ids": [
+          "vnm2025_p038_txt_0",
+          "vnm2025_p038_vis_0",
+          "vnm2025_p101_txt_0",
+          "vnm2025_p080_txt_6"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 3057.4,
+    "tokens": {
+      "prompt": 2855,
+      "completion": 117
+    },
+    "est_cost_usd": 0.000498
+  },
+  {
+    "query_id": "adv_test2_unans_6",
+    "split": "test",
+    "category": "unanswerable",
+    "answerable": false,
+    "question": "Tỷ lệ cổ tức bằng tiền mặt của Vinamilk cho quý 4 năm 2027 là bao nhiêu phần trăm?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "tỷ lệ cổ tức bằng tiền mặt quý 4 năm 2027",
+        "page_hint": null,
+        "results_count": 8,
+        "top_ids": [
+          "vnm2025_p110_vis_0",
+          "vnm2025_p110_vis_1",
+          "vnm2025_p048_txt_5",
+          "vnm2025_p065_txt_2",
+          "vnm2025_p110_txt_2",
+          "vnm2025_p110_txt_1",
+          "vnm2025_p010_txt_2",
+          "vnm2025_p110_txt_0"
+        ],
+        "packed_ids": [
+          "vnm2025_p110_vis_0",
+          "vnm2025_p110_vis_1",
+          "vnm2025_p048_txt_5"
+        ]
+      }
+    ],
+    "search_calls": 1,
+    "elapsed_ms": 2622.0,
+    "tokens": {
+      "prompt": 2961,
+      "completion": 28
+    },
+    "est_cost_usd": 0.000461
+  }
+]

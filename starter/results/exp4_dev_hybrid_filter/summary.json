@@ -1,0 +1,14 @@
+{
+  "strategy": "Improvement 1: Hybrid RRF + Metadata Filtering",
+  "split": "dev",
+  "n": 15,
+  "hit1": 11,
+  "hit1_pct": 73.33,
+  "hit3": 14,
+  "hit3_pct": 93.33,
+  "context_hit": 11,
+  "context_hit_pct": 73.33,
+  "avg_context_chars": 616.1,
+  "median_ms": 47.44,
+  "service_cost_usd": 0.0
+}

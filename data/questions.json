@@ -1,0 +1,277 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Trường Đại học Bách khoa Hà Nội được thành lập vào ngày tháng năm nào theo nghị định nào?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 2,
+        "evidence": "Ngày 6/3/1956, Bộ trưởng Bộ Giáo dục Nguyễn Văn Huyên đã ký nghị định 147/NĐ về việc thành lập trường Đại học Chuyên nghiệp Bách khoa nay là trường ĐHBK Hà Nội."
+      }
+    ],
+    "expected_answer": "Ngày 6/3/1956 theo Nghị định 147/NĐ của Bộ trưởng Bộ Giáo dục Nguyễn Văn Huyên."
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Lễ khai giảng khóa I của trường ĐHBK Hà Nội có bao nhiêu sinh viên và gồm mấy liên khoa?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 2,
+        "evidence": "Ngày 15/10/1956,Trường đã long trọng tổ chức “Lễ khai giảng khóa I” cho 848 sinh viên vào 14 ngành của 04 liên khoa Cơ-Điện, Mỏ-Luyện kim, Xây dựng, Hóa-Thực phẩm."
+      }
+    ],
+    "expected_answer": "848 sinh viên vào 14 ngành của 04 liên khoa (Cơ-Điện, Mỏ-Luyện kim, Xây dựng, Hóa-Thực phẩm)."
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Năm 1967, Chính phủ đã tách những khoa nào từ ĐHBK Hà Nội để thành lập các trường đại học mới?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 2,
+        "evidence": "Chính phủ quyết định tách 2 khoa Xây dựng và Mỏ - Địa chất từ Trường Đại học Bách khoa Hà Nội để thành lập trường Đại học Xây dựng và trường Đại học Mỏ - Địa chất."
+      }
+    ],
+    "expected_answer": "Tách 2 khoa Xây dựng và Mỏ - Địa chất để thành lập trường Đại học Xây dựng và trường Đại học Mỏ - Địa chất."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Những hành vi gian lận nào trong học tập và thi cử bị nghiêm cấm đối với sinh viên?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 6,
+        "evidence": "Gian lận trong học tập, kiểm tra, thi cử như quay cóp, sử dụng tài liệu hoặc thiết bị không được phép, sử dụng trái phép công cụ, phần mềm, Internet để làm bài; thi hộ, nhờ thi hộ, làm hoặc nhờ làm bài tập, tiểu luận, đồ án, khóa luận."
+      }
+    ],
+    "expected_answer": "Quay cóp, sử dụng tài liệu hoặc thiết bị không được phép, sử dụng trái phép công cụ, phần mềm, Internet để làm bài; thi hộ, nhờ thi hộ, làm hoặc nhờ làm bài tập, tiểu luận, đồ án, khóa luận."
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Quy định về việc hút thuốc lá và sử dụng đồ uống có cồn trong khuôn viên trường như thế nào?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 6,
+        "evidence": "Hút thuốc lá, thuốc lá điện tử; uống rượu, bia trong khuôn viên Đại học hoặc đến trường trong tình trạng say rượu, bia."
+      }
+    ],
+    "expected_answer": "Cấm hút thuốc lá, thuốc lá điện tử; cấm uống rượu, bia trong khuôn viên Đại học hoặc đến trường trong tình trạng say rượu, bia."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Chương trình đào tạo tích hợp hệ chính quy của trường được tổ chức theo mô hình nào và tổng thời gian là bao lâu?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 7,
+        "evidence": "Các chương trình đào tạo được tổ chức theo mô hình 4+1,5 (tổng thời gian đào tạo là 5,5 năm đối với người học cùng ngành và theo tiến độ chuẩn)."
+      }
+    ],
+    "expected_answer": "Tổ chức theo mô hình 4+1,5 với tổng thời gian đào tạo là 5,5 năm đối với người học cùng ngành theo tiến độ chuẩn.",
+    "filter": {
+      "section": "dao_tao"
+    }
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Bằng Kỹ sư chuyên sâu nghề nghiệp theo mô hình đào tạo tích hợp yêu cầu tích lũy bao nhiêu tín chỉ và thuộc bậc mấy?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 7,
+        "evidence": "KỸ SƯ (180 tín chỉ - bậc 7) + Định hướng chuyên sâu nghề nghiệp Cấp bằng Kỹ sư"
+      }
+    ],
+    "expected_answer": "180 tín chỉ và thuộc bậc 7."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Khi sắp xếp thời gian lập kế hoạch học tập khoa học cần đảm bảo 4 yếu tố nào?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 9,
+        "evidence": "Khi sắp xếp thời gian phải đảm bảo 4 yếu tố: + Toàn diện + Hợp lý + Nổi bật trọng điểm + Dành khoảng thời gian trống"
+      }
+    ],
+    "expected_answer": "Toàn diện, Hợp lý, Nổi bật trọng điểm, Dành khoảng thời gian trống."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Tiêu chí 1 (TC1) trong đánh giá điểm rèn luyện là gì và có điểm tối đa là bao nhiêu?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 11,
+        "evidence": "TC1 Chấp hành pháp luật và nội quy, quy chế của nhà trường (tối đa 25 điểm) 25"
+      }
+    ],
+    "expected_answer": "Chấp hành pháp luật và nội quy, quy chế của nhà trường, điểm tối đa là 25 điểm.",
+    "filter": {
+      "section": "ren_luyen"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Sinh viên tham gia sinh hoạt công dân do nhà trường tổ chức được cộng bao nhiêu điểm rèn luyện?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 11,
+        "evidence": "1.1.2 Tham gia Sinh hoạt công dân do nhà trường tổ chức MC 6"
+      }
+    ],
+    "expected_answer": "Được cộng 6 điểm (mục 1.1.2)."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Theo Thông tư số 40/2026/TT-BGDĐT có mấy hình thức xử lý kỷ luật sinh viên và gồm những hình thức nào?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 12,
+        "evidence": "Theo Thông tư số 40/2026/TT-BGDĐT, có 4 hình thức xử lý kỷ luật sinh viên gồm:\n1. Khiển trách;\n2. Cảnh cáo;\n3. Đình chỉ học tập có thời hạn;\n4. Buộc thôi học."
+      }
+    ],
+    "expected_answer": "Có 4 hình thức: 1. Khiển trách; 2. Cảnh cáo; 3. Đình chỉ học tập có thời hạn; 4. Buộc thôi học."
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Việc miễn giảm học phí cho sinh viên diện chế độ chính sách được thực hiện theo văn bản quy định nào?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 14,
+        "evidence": "Việc miễn giảm học phí cho sinh viên diện chế độ chính sách (CĐCS) được thực hiện theo Nghị định số 238/2025/NĐ-CP, ngày 03/09/2025 của Chính phủ."
+      }
+    ],
+    "expected_answer": "Theo Nghị định số 238/2025/NĐ-CP ngày 03/09/2025 của Chính phủ."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Để đạt học bổng khuyến khích học tập loại xuất sắc, sinh viên cần đáp ứng điều kiện GPA và điểm rèn luyện như thế nào?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 16,
+        "evidence": "GPA ≥ 3.6 VÀ ĐIỂM RÈN LUYỆN HỌC KỲ ≥ 90 ĐIỂM Học bổng loại xuất sắc"
+      }
+    ],
+    "expected_answer": "GPA >= 3.6 và điểm rèn luyện học kỳ >= 90 điểm.",
+    "filter": {
+      "section": "hoc_bong_chinh_sach"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Học bổng Trần Đại Nghĩa của ĐHBK Hà Nội dành cho đối tượng sinh viên nào?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 17,
+        "evidence": "Học bổng Trần Đại Nghĩa là Học bổng của ĐHBK Hà Nội xét cấp cho sinh viên có hoàn cảnh kinh tế gia đình đặc biệt khó khăn (hộ nghèo, hộ cận nghèo hoặc hộ có hoàn cảnh kinh tế đặc biệt khó"
+      }
+    ],
+    "expected_answer": "Sinh viên có hoàn cảnh kinh tế gia đình đặc biệt khó khăn (hộ nghèo, hộ cận nghèo hoặc hộ có hoàn cảnh kinh tế đặc biệt khó khăn)."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Theo thống kê, có bao nhiêu phần trăm sinh viên ĐHBK Hà Nội từng hoặc có nguyện vọng làm gia sư?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 21,
+        "evidence": "làm gia sư các môn như Toán, Lý, Hóa, Tiếng Anh, Tin học"
+      }
+    ],
+    "expected_answer": "Trên 30% sinh viên."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Trường ĐHBK Hà Nội khởi công xây dựng khu trường mới trên khuôn viên Đông Dương học xá vào thời gian nào?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 2,
+        "evidence": "Ngày 7/11/1960 với sự giúp đỡ hết lòng của Chính phủ và nhân dân Liên Xô, nhân dịp kỷ niệm Cách mạng tháng Mười Nga vĩ đại, trường ĐHBK Hà Nội khởi công xây dựng khu trường mới trên khuôn viên của Đông Dương học xá."
+      }
+    ],
+    "expected_answer": "Ngày 7/11/1960 với sự giúp đỡ của Chính phủ và nhân dân Liên Xô."
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Thời gian đào tạo chương trình Cử nhân và Thạc sĩ khoa học theo mô hình tích hợp là bao nhiêu năm?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 7,
+        "evidence": "c chương trình tích hợp cử nhân - thạc sĩ sẽ học chương trình 4 năm và được nhận được bằng tốt nghiệp cử nhân; sau đó nếu học tiếp 1,5 năm theo chương trình thạc sĩ tích hợp sẽ được cấp bằng tốt nghiệp"
+      }
+    ],
+    "expected_answer": "Cử nhân 4 năm; Thạc sĩ khoa học 1,5 năm (tổng 5,5 năm)."
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Hành vi khai báo thông tin liên lạc và nơi cư trú theo yêu cầu của Đại học được cộng mấy điểm rèn luyện?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 11,
+        "evidence": "1.1.3 Khai báo thông tin liên lạc và nơi cư trú theo yêu cầu của Đại học MC 4"
+      }
+    ],
+    "expected_answer": "Được cộng 4 điểm (mục 1.1.3).",
+    "filter": {
+      "section": "ren_luyen"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Học bổng Gắn kết quê hương của ĐHBK Hà Nội xét cấp cho đối tượng sinh viên nào?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 18,
+        "evidence": "Học bổng gắn kết quê hương là Học bổng của ĐHBK Hà Nội xét cấp cho sinh viên hệ đại học"
+      }
+    ],
+    "expected_answer": "Sinh viên hệ đại học chính quy của ĐHBK Hà Nội."
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Hai trang thông tin điện tử chính thức dành cho sinh viên ĐHBK Hà Nội là những địa chỉ nào?",
+    "gold": [
+      {
+        "source_id": "so-tay-sv-hust-2026",
+        "page": 23,
+        "evidence": "HUST.EDU.VN CTT.HUST.EDU.VN Đây là trang thông tin chính thức của Đại học"
+      }
+    ],
+    "expected_answer": "HUST.EDU.VN và CTT.HUST.EDU.VN.",
+    "filter": {
+      "section": "ho_tro_sinh_vien"
+    }
+  }
+]
